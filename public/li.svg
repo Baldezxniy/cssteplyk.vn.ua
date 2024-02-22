@@ -1,0 +1,22 @@
+<svg id="Li.svg" xmlns="http://www.w3.org/2000/svg" width="1827" height="800" viewBox="0 0 1827 800">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M549,230h1v800h-1V230Zm1402,0h1v800h-1V230Z" transform="translate(-355 -230)"/>
+  <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-2" d="M355,369v-1H1368v1H355Zm814,541v-1H2182v1H1169Z" transform="translate(-355 -230)"/>
+  <path class="cls-2" d="M898,230h1V630h-1V230Z" transform="translate(-355 -230)"/>
+  <path id="Shape_1_copy_3" data-name="Shape 1 copy 3" class="cls-2" d="M1464,492h1v538h-1V492Z" transform="translate(-355 -230)"/>
+</svg>

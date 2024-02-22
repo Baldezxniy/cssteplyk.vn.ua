@@ -1,0 +1,16 @@
+<svg id="Ligrey.svg" xmlns="http://www.w3.org/2000/svg" width="1827" height="1230" viewBox="0 0 1827 1230">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+        opacity: 0.1;
+      }
+
+      .cls-2 {
+        fill: #040404;
+      }
+    </style>
+  </defs>
+  <path id="Shape_1_copy_5" data-name="Shape 1 copy 5" class="cls-1" d="M549,1071h1V2301h-1V1071Zm1402,0h1V2301h-1V1071Zm-1054,0h1V2301h-1V1071Zm566,0h1V2301h-1V1071Z" transform="translate(-355 -1071)"/>
+  <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-2" d="M355,1210v-1H1368v1H355Zm814,541v-1H2182v1H1169Z" transform="translate(-355 -1071)"/>
+</svg>

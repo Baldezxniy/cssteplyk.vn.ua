@@ -2,32 +2,217 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-image-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 75%, rgba(240, 240, 240, 1) 75%);
+    background-position: left 0 top 0;
+    color: rgba(255, 255, 255, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg-image-main-2 {
+    background-image: linear-gradient(to right, rgba(43, 40, 47, 0.25) 0%, rgba(43, 40, 47, 0.12) 100%),
+    linear-gradient(to left, rgba(43, 40, 47, 0.3) 0%, rgba(255, 255, 255, 0) 100%),
+    url(../public/slider12365.jpg);
+    @apply bg-no-repeat;
+    background-position: left 0 top 0, left 0 top 0, center center;
+    background-size: auto, auto, cover;
+    background-attachment: scroll, scroll, scroll;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-color-main-image {
+    background-color: rgba(43, 40, 47, 0.4);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bg-color-icon {
+    background-color: rgba(230, 51, 56, 1);
+    box-shadow: 0px 0px 20px 6px rgba(230, 51, 56, 0.45);
 }
+
+.text-default {
+    color: rgba(230, 51, 56, 1);
+}
+
+.elem-main {
+    box-shadow: 0px 13px 19px 0px rgba(79, 79, 79, 0.1);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.ms-animator-rollIn {
+    animation-name: ms-animator-rollIn;
+    animation-duration: 6s;
+}
+
+@keyframes ms-animator-rollIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.ms-animator-i {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.ball-image {
+    background-image: url('../public/voll2.png');
+    background-size: contain;
+    @apply bg-no-repeat;
+}
+
+.text-services {
+    background-color: rgba(240, 240, 240, 1);
+}
+
+.mail-images {
+    background-image: url("../public/leaf4.png"), url("../public/leaf3.png");
+    background-position: left calc(254px + 50%) top calc(32px + 50%), right 43px bottom 77px;
+    background-size: 55.35px auto, auto;
+    background-attachment: scroll, scroll;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.mail-images-first {
+    background-image: url("../public/leaf6.png"),
+    linear-gradient(to right, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 20%),
+    linear-gradient(rgba(255, 255, 255, 1) 20%, rgba(43, 40, 47, 1) 20%);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right 13px top 47px, left 0px top 0px, left 0px top 0px;
+    background-size: 43.4px auto, auto, auto;
+    background-attachment: scroll, scroll, scroll;
+}
+
+.mail-images-first-first-img-1 {
+    background-image: url("../public/55352100_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+
+.mail-images-first-first-img-2 {
+    box-shadow: 0px 15px 14px -16px rgba(0, 0, 0, 0.3);
+}
+
+.mail-images-first-first-img-3 {
+    background-image: url('../public/55352105_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.mail-images-first-first-img-4 {
+    background-image: url('../public/81e2c95251d7.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.advantage {
+    background-color: rgba(240, 240, 240, 1);
+    background-image: url("../public/ligrey.svg"), linear-gradient(rgba(43, 40, 47, 0.7) 0%, rgba(43, 40, 47, 0.7) 100%), url("https://mos-940100.oml.ru/d/sl.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left calc(18px + 50%) top 0, left 0px top 0px, center center;
+    background-size: auto, auto, cover;
+    background-attachment: scroll, scroll, fixed;
+    color: rgba(255, 255, 255, 1);
+}
+
+.advantage-elem {
+    box-shadow: 0px 13px 7px 0px rgba(0, 21, 236, 0.04);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.svg_down > svg {
+    @apply flex-shrink-0
+}
+
+.bg-join-us {
+    background-image: linear-gradient(rgba(43, 40, 47, 0.75) 0%, rgba(43, 40, 47, 0.75) 100%), url("../public/li.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 0px top 0px, center center;
+    background-size: auto, 1004.85px auto;
+    background-attachment: scroll, scroll;
+}
+
+.bg-image-join-us {
+    background-image: url("https://mos-940100.oml.ru/d/55352045_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.bg-couch {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 75%, rgba(240, 240, 240, 1) 75%);
+    background-repeat: no-repeat;
+    background-position: left 0px top 0px;
+    background-size: auto;
+    background-attachment: scroll;
+}
+
+.bg-t-img{
+    background-image: linear-gradient(rgba(255,255,255, 0) 0%, rgba(56,56,56, 0.48) 82%);
+    background-repeat: no-repeat;
+    background-position: left 0px top 0px;
+    background-size: auto;
+    background-attachment: scroll;
+}
+
+/*.rfm-child{*/
+/*    @apply w-full;*/
+/*    height: 100%;*/
+/*    will-change: transform;*/
+/*}*/
+
+.swiper-container {
+    height: calc(100vh - 120px);
+    margin: 60px;
+}
+
+
+.swiper-slide {
+    width: 28vw;
+    overflow: hidden;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.swiper-wrapper {
+    -webkit-transition-timing-function:linear!important;
+    -o-transition-timing-function:linear!important;
+    transition-timing-function:linear!important;
+}
+
+.bg-footer{
+    background-image: linear-gradient(rgba(43, 40, 47, 0.7) 0%, rgba(43, 40, 47, 0.7) 100%), url("../public/li.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 0px top 0px, left calc(18px + 50%) center;
+    background-size: auto, auto;
+    background-attachment: scroll, scroll;
+}
+
+
+
+
+
+
