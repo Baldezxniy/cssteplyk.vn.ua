@@ -126,7 +126,7 @@ export default function Home() {
                             <div className='w-[65px] h-[65px] overflow-hidden inline-block'>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <Image src={img1}
-                                   alt={''} className='w-full h-full object-contain'/>
+                                   alt={'qwre'} className='w-full h-full object-contain'/>
                             </div>
                           </div>
                           <div className='flex flex-col items-center'>
@@ -152,7 +152,7 @@ export default function Home() {
                             <div className='w-[65px] h-[65px] overflow-hidden inline-block'>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <Image src={img2}
-                                   alt={''} className='w-full h-full object-contain'/>
+                                   alt={'qwr'} className='w-full h-full object-contain'/>
                             </div>
                           </div>
                           <div className='flex flex-col items-center'>
@@ -214,7 +214,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={ATHLETICS} alt={''} className='w-full h-full object-cover'/>
+                        <Image src={ATHLETICS} alt={'qrew'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -251,7 +251,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={ATHLETICS} alt={''} className='w-full h-full object-cover'/>
+                        <Image src={ATHLETICS} alt={'lasdf'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -269,7 +269,6 @@ export default function Home() {
                           Волейбол у нашій школі — це захоплюючі тренування та командна гра. Приєднуйтесь до нас для отримання нових навичок та веселих моментів!
                         </span>
                       </div>
-
                       {/*2xl:flex*/}
                       <a href='#'
                          className='hidden py-[16px] px-[30px] bg-[#E63338] mt-[20px] rounded-[250px] text-white'>
@@ -289,7 +288,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={ATHLETICS} alt={''} className='w-full h-full object-cover'/>
+                        <Image src={ATHLETICS} alt={'qrwe'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -326,7 +325,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={ATHLETICS} alt={''} className='w-full h-full object-cover'/>
+                        <Image src={ATHLETICS} alt={'werq'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -363,7 +362,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={ATHLETICS} alt={''} className='w-full h-full object-cover'/>
+                        <Image src={ATHLETICS} alt={'qwreqwe'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -402,7 +401,7 @@ export default function Home() {
               </div>
               <div className='flex flex-col items-center mr-auto ml-0 justify-start'>
                 <div className=' relative h-[200px] mb-[12px] rounded-[20px] overflow-hidden'>
-                  <Image src={WORK} alt={''} className='object-fit-cover w-full h-full'/>
+                  <Image src={WORK} alt={'rqwe'} className='object-fit-cover w-full h-full'/>
                   <div
                     className='flex absolute left-0 right-0 top-0 bottom-0 bg-[#2B282F]/40 flex-col items-center justify-center '>
                     <div className='font-bold inline-flex text-[80px] text-white'>
@@ -581,12 +580,14 @@ export default function Home() {
                     <span className="flex-grow max-w-full">Завжди тут</span>
                   </div>
                   <div className='text-[25px] sm:text-[30px] md:text-[30px] lg:text-[3vw] leading-[110%] sm:leading-[100%] font-bold  text-center sm:text-left'>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <span className="flex-grow max-w-full">Зв'яжіться з нами</span>
                   </div>
                 </div>
                 {/**/}
                 <div className='leading-[130%] text-[16px] mt-[10px] flex text-white/60 text-center sm:text-left'>
                   <span className="flex-grow max-w-full">
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Якщо у вас є якісь питання, ви можете зв'язатися з нами прямо зараз
                   </span>
                 </div>
@@ -795,6 +796,7 @@ export default function Home() {
               <div
                 className='flex cursor-pointer py-[20px] px-[35px] bg-[#E63338] mt-[40px] rounded-[250px] transition-all duration-300 hover:bg-red-400 ease-in text-white'>
                 <div className='font-sans'>
+                  {/* eslint-disable-next-line react/no-unescaped-entities */}
                   <span className="flex-grow max-w-full">Зв'язатися з нами</span>
                 </div>
               </div>
