@@ -358,4 +358,5 @@
 .bg-right-menu{
     background: #141d22!important;
     width: 300px !important;
+    height: 100dvh !important;
 }

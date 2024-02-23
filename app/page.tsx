@@ -104,7 +104,7 @@ export default function Home() {
 
         className='bg-right-menu px-[5%] w-[340px]'
       >
-        <div className='h-screen py-4 flex flex-col'>
+        <div className='h-full py-4 flex flex-col'>
           <div className='flex  justify-between py-[15px] leading-[160%] mb-[10px]'>
             <div className='text-[22px] mr-[40px] inline-flex text-white font-bold'>
               <span className="flex-grow max-w-full">Навігація по сайті</span>
