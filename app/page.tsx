@@ -16,10 +16,29 @@ import img2 from '../public/2.png'
 
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
+import {useState} from "react";
+
+// import component 👇
+import Drawer from 'react-modern-drawer'
+
+//import styles 👇
+import 'react-modern-drawer/dist/index.css'
+
 
 export default function Home() {
+
+  const scrollToHeader = () => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }
+
+  const [isOpen, setIsOpen] = useState(false)
+  const toggleDrawer = () => {
+    setIsOpen((prevState) => !prevState)
+  }
+
   return (
-    <main className=' relative min-h-screen flex flex-col text-base overflow-x-hidden overflow-y-hidden'>
+    <main
+      className={' relative min-h-screen flex flex-col text-base overflow-x-hidden overflow-y-hidden'}>
       <div
         className='block w-full relative px-[5%] z-10 text-black cursor-auto font-normal leading-normal not-italic tracking-normal bg-[#2B282F] py-4 text-tra normal-case shadow-none text-left mb-4'>
         <div className='w-full max-w-[1300px] my-0 mx-auto relative flex justify-between items-center flex-row'>
@@ -32,9 +51,6 @@ export default function Home() {
                   </span>
               </a>
             </div>
-          </div>
-          <div className='flex items-center justify-center md:hidden bg-white h-6 w-6'>
-            ...
           </div>
           <div className='relative hidden my-auto md:block'>
             <div className='flex relative justify-start items-center overflow-[upset]'>
@@ -75,8 +91,84 @@ export default function Home() {
               </ul>
             </div>
           </div>
+          <div className='mobile-nav-btn md:hidden' onClick={toggleDrawer}>
+            <div className={"nav-icon"}></div>
+          </div>
         </div>
       </div>
+      <Drawer
+        open={isOpen}
+        onClose={toggleDrawer}
+        direction='right'
+        lockBackgroundScroll={true}
+
+        className='bg-right-menu px-[5%] w-[340px]'
+      >
+        <div className='h-screen py-4 flex flex-col'>
+          <div className='flex  justify-between py-[15px] leading-[160%] mb-[10px]'>
+            <div className='text-[22px] mr-[40px] inline-flex text-white font-bold'>
+              <span className="flex-grow max-w-full">Навігація по сайті</span>
+            </div>
+            <div className='mobile-nav-btn md:hidden relative' onClick={toggleDrawer}>
+              <div className={"nav-icon nav-icon--active"}></div>
+            </div>
+
+          </div>
+          <div className='relative flex-grow w-full mx-0'>
+            <ul className='flex flex-col gap-4'>
+              <li>
+                <a href="#"
+                   className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
+                      <span className='flex-grow max-w-full'>
+                        Головна
+                      </span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                   className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
+                      <span className='flex-grow max-w-full'>
+                        Про нас
+                      </span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                   className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
+                      <span className='flex-grow max-w-full'>
+                        Тренери
+                      </span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                   className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
+                      <span className='flex-grow max-w-full'>
+                        Новини
+                      </span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                   className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
+                      <span className='flex-grow max-w-full'>
+                        Контакти
+                      </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className='flex w-full justify-center'>
+            <div role='button'
+                 className=' flex justify-center cursor-pointer py-[18px] px-[30px] bg-[#E63338] mt-5 rounded-[250px] text-white hover:bg-red-400 duration-300'>
+                  <span>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
+                    Зв'язатися з нами
+                  </span>
+            </div>
+          </div>
+        </div>
+      </Drawer>
       <div>
         <div className='flex relative bg-image-main bg-no-repeat px-[5%] pb-[25px] lg:pb-[50px]'>
           <div
@@ -851,6 +943,12 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <button onClick={scrollToHeader}
+                  className='md:right-[50px] md:top-[50px] top-[100px] right-[40px] absolute border flex justify-center items-center rounded-full w-[50px] h-[50px] border-white/50 transition-all duration-300 hover:bg-[#EFEFEF]/20 z-20'>
+            <span className='flex justify-center  items-center h-[16px] w-[16px]'>
+              <TopIcon/>
+            </span>
+          </button>
         </div>
       </div>
     </main>
@@ -924,5 +1022,13 @@ const AddressSVG = () => (
     <path
       d="M81.6 17.956h5.786s11.892.622 12.61 13.8c.016 6.166 0 54.152 0 54.152s.3 13.4-13.946 14.094c-11.891-.052-73.138 0-73.138 0s-12.318-.8-12.907-13.8c.029-7.678 0-55.19 0-55.19s.373-11.573 12.758-13.056c5.54.044 5.489 0 5.489 0a2.558 2.558 0 0 1 2.374 2.671 2.681 2.681 0 0 1-2.522 2.522h-4.9s-7.672.546-8.011 8.605c-.008 7.935 0 18.842 0 18.842h22.7s2.457.043 2.523 3.264c-.018 3.3 0 15.429 0 15.429s5.434.68 7.121 7.122c4.161.008 31.154 0 31.154 0V53.118a2.538 2.538 0 0 1 2.819-2.522c2.889-.044 23.291 0 23.291 0V31.16s-.476-7.283-8.011-8.011c-4.524.055-4.895 0-4.895 0s-2.166.212-2.671-2.671c.111-1.15 1.176-2.604 2.376-2.522zM50.594.005a21.312 21.312 0 0 1 16.17 8.011 20.918 20.918 0 0 1 4.9 12.314c.006 2.525 0 2.671 0 2.671A26.727 26.727 0 0 1 68.4 33.683c-2.446 5.286-14.687 31.155-14.687 31.155A4.2 4.2 0 0 1 50 66.915c-.605.1-2.91-.094-4.3-3.115-1.318-2.911-15.874-33.826-15.874-33.826a23.367 23.367 0 0 1-1.483-7.715c.007-1.677 0-2.077 0-2.077s.263-8.943 7.417-14.836A22.016 22.016 0 0 1 50.589.005zm35.753 94.8c-3.767-.016-12.462 0-12.462 0v-13.35H94.8V86.8a8.792 8.792 0 0 1-8.458 8.007zM73.88 55.788H94.8v20.474H73.88V55.788zM30.413 86.054s.185-2.044-2.374-2.522c-.992.014-1.039 0-1.039 0a4.856 4.856 0 0 1-3.857-4.748 4.745 4.745 0 0 1 4.747-4.747 4.7 4.7 0 0 1 4.748 4.154c-.014 1.054 0 1.038 0 1.038s.208 2.93 4.6 2.226c3.714.034 31.451 0 31.451 0v13.352H30.413v-8.753zm33.824-55.635c-1.9 3.881-14.093 29.969-14.093 29.969H50l-15.28-32.2a16.113 16.113 0 0 1-1.187-5.786c.033-1.35 0-1.929 0-1.929A16.647 16.647 0 0 1 50.144 5.2s8.752.182 13.055 6.825a15.331 15.331 0 0 1 3.264 8.9c.006 1.907 0 1.928 0 1.928a19.041 19.041 0 0 1-2.226 7.566zm-45.99 45.843c-3.005-.023-13.055 0-13.055 0V55.788H25.22v13.353s-5.556 1.601-6.973 7.121zm0 5.193a10.345 10.345 0 0 0 6.973 6.973v6.379H13.055a8.835 8.835 0 0 1-7.863-8.16c-.038-2.669 0-5.192 0-5.192h13.055zM50 12.467s7.4.053 8.308 7.566v1.484s-.668 1.951-2.225 1.929a1.216 1.216 0 0 1-.594 0 2.557 2.557 0 0 1-2.373-2.374 1.67 1.67 0 0 0 0-.594A3.219 3.219 0 0 0 50 17.66a3.461 3.461 0 0 0-3.264 3.115 3.072 3.072 0 0 0 2.968 3.264c.9-.012.89 0 .89 0s2.065.541 2.077 2.225a8.78 8.78 0 0 1 0 .891s-.5 2.119-2.374 2.077a12.173 12.173 0 0 1-1.484 0s-6.513-.615-7.121-7.418c-.037-1.474 0-1.929 0-1.929s.46-6.647 8.308-7.418z"
       fill-rule="evenodd" className="path-iufv1225j"></path>
+  </svg>
+)
+
+const TopIcon = () => (
+  <svg fill='white' xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 46.999 29.969"
+       data-prefix="ih7qzmjv5">
+    <path d="M41.176 29.977L23.5 11.903 5.824 29.977.001 24.024l23.5-24.027 23.5 24.027z" fill-rule="evenodd"
+          className="path-ibmfwgtyz"></path>
   </svg>
 )

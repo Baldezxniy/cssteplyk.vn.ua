@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material/drawer": "^14.0.0",
+    "@types/react-burger-menu": "^2.8.7",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
+    "react-modern-drawer": "^1.2.2",
     "swiper": "^11.0.6"
   },
   "devDependencies": {
