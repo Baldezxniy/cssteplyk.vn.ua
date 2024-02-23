@@ -360,3 +360,7 @@
     width: 300px !important;
     height: 100dvh !important;
 }
+
+.gmnoprint {
+    display: none !important;
+}
