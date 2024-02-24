@@ -195,7 +195,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Володимир Руденко</span>
                                 </div>
                               </div>
@@ -257,7 +257,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] lg:text-[25px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Валерій Писаренко</span>
                                 </div>
                               </div>
@@ -319,7 +319,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Сергій Даниленко</span>
                                 </div>
                               </div>
@@ -383,7 +383,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Наталя Зінченко</span>
                                 </div>
                               </div>
@@ -445,7 +445,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Наталя Зінченко</span>
                                 </div>
                               </div>
@@ -507,7 +507,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Наталя Зінченко</span>
                                 </div>
                               </div>
@@ -569,7 +569,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Наталя Зінченко</span>
                                 </div>
                               </div>
@@ -631,7 +631,7 @@ const Page = () => {
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-18px md:text-[22px] flex font-bold flex-shrink'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
                                   <span className="text-block-wrap-div">Наталя Зінченко</span>
                                 </div>
                               </div>
