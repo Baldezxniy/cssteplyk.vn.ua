@@ -1,5 +1,5 @@
 'use client'
-import React, {ReactElement, useEffect, useRef, useState} from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 
 import Drawer from 'react-modern-drawer'
 
@@ -163,7 +163,7 @@ const Page = () => {
         <div className='w-full px-[5%] py-[30px] sm:py-[70px]'>
           <div className='max-w-[1300px] mx-auto flex flex-row'>
             <div className='w-full relative'>
-              <div className='block text-[14px] text[#5B5B5B] mb-[10px] '>
+              <div className='block text-[14px] text-[#5B5B5B] mb-[10px] '>
                 <a href="#" className='inline-block py-[2px] px-[3px] text-[#E63338] underline'>
                   <span className="flex-grow  max-w-full inline">Головна</span>
                 </a>

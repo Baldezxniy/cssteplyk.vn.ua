@@ -316,7 +316,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="text-block-wrap-div">ЛЕГКАЯ АТЛЕТИКА</span>
+                          <span className="flex-grow max-w-full">ЛЕГКАЯ АТЛЕТИКА</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
@@ -353,7 +353,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="text-block-wrap-div">Волейбол</span>
+                          <span className="flex-grow max-w-full">Волейбол</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
@@ -390,7 +390,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="text-block-wrap-div">греко римська боротьба</span>
+                          <span className="flex-grow max-w-full">греко римська боротьба</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
@@ -427,7 +427,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="text-block-wrap-div">Футбол</span>
+                          <span className="flex-grow max-w-full">Футбол</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
@@ -464,7 +464,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="text-block-wrap-div">Стрільба кульова</span>
+                          <span className="flex-grow max-w-full">Стрільба кульова</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
@@ -577,7 +577,7 @@ export default function Home() {
                 <span className="flex-grow max-w-full">Навчайтеся з нами та розвивайте свої найкращі здібності!</span>
               </div>
               <div className='lg:text-[3vw] leading-[120%] self-center sm:self-start sm:text-[30px] text-[25px] md:leading-[100%] font-bold flex'>
-                <span className="text-block-wrap-div">Що робить нашу школу особливою? </span>
+                <span className="flex-grow max-w-full">Що робить нашу школу особливою? </span>
               </div>
             </div>
             <div className='mt-[30px] sm:mt-[50px] flex-shrink w-full mr-auto leading-normal '>
