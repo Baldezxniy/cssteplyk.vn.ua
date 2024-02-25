@@ -154,6 +154,7 @@ const Page = () => {
             <div role='button'
                  className=' flex justify-center cursor-pointer py-[18px] px-[30px] bg-[#E63338] mt-5 rounded-[250px] text-white hover:bg-red-400 duration-300'>
                   <span>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Зв'язатися з нами
                   </span>
             </div>

@@ -335,7 +335,7 @@ const Page = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about-us"
+                  <Link href="./about-us"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Про нас
