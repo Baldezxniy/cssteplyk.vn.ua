@@ -562,7 +562,7 @@ const Page = () => {
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
                             <div
-                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full  m-[10px] my-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[10px] my-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
                                 <Image src={t3Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
@@ -624,7 +624,7 @@ const Page = () => {
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
                             <div
-                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full  m-[5px] my-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
                                 <Image src={t4Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>

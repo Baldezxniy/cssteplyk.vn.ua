@@ -4,7 +4,6 @@ import Image from "next/image";
 
 import ATHLETICS from '../public/55352045_2.jpg'
 import WORK from '../public/55315018.jpg'
-import Marquee from "react-fast-marquee";
 
 import t1Image from '../public/t1.jpg'
 import t2Image from '../public/t2.jpg'
