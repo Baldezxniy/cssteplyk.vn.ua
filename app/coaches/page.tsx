@@ -13,6 +13,7 @@ import t4Image from '../../public/t4.jpg'
 import ATHLETICS from "@/public/55352045_2.jpg";
 import {FaBeer, FaFacebook, FaFacebookF, FaInstagram, FaTelegramPlane, FaViber} from "react-icons/fa";
 import {MdOutlinePhoneInTalk} from "react-icons/md";
+import Link from "next/link";
 
 
 const Page = () => {
@@ -34,12 +35,12 @@ const Page = () => {
         <div className='w-full max-w-[1300px] my-0 mx-auto relative flex justify-between items-center flex-row'>
           <div className='relative flex-grow my-auto pr-[25px]'>
             <div className='flex relative justify-start items-center flex-wrap w-auto overflow-[upset]'>
-              <a href=""
+              <Link href="/"
                  className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                   <span>
                         Головна
                   </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className='relative hidden my-auto md:block'>
@@ -47,36 +48,36 @@ const Page = () => {
               <ul
                 className='p-0 m-0 list-none flex justify-start items-start flex-grow flex-shrink h-[46] w-[1%]'>
                 <li>
-                  <a href=""
+                  <Link href="/about-us"
                      className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Про нас
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/coaches"
                      className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Тренери
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/news"
                      className='text-[14px] font-normal flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Новини
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/contacts"
                      className='text-[14px] font-normal flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Контакти
                       </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -108,44 +109,44 @@ const Page = () => {
           <div className='relative flex-grow w-full mx-0'>
             <ul className='flex flex-col gap-4'>
               <li>
-                <a href="#"
+                <Link href="/"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Головна
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/about-us"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Про нас
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/coaches"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Тренери
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/news"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Новини
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/contacts"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Контакти
                       </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -153,7 +154,6 @@ const Page = () => {
             <div role='button'
                  className=' flex justify-center cursor-pointer py-[18px] px-[30px] bg-[#E63338] mt-5 rounded-[250px] text-white hover:bg-red-400 duration-300'>
                   <span>
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Зв'язатися з нами
                   </span>
             </div>
@@ -166,9 +166,9 @@ const Page = () => {
           <div className='max-w-[1300px] mx-auto flex flex-row'>
             <div className='w-full relative'>
               <div className='block text-[14px] text-[#5B5B5B] mb-[10px] '>
-                <a href="#" className='inline-block py-[2px] px-[3px] text-[#E63338] underline'>
+                <Link href="/" className='inline-block py-[2px] px-[3px] text-[#E63338] underline'>
                   <span className="flex-grow  max-w-full inline">Головна</span>
-                </a>
+                </Link>
                 <span className='inline-block py-[2px] px-[3px] text-[#5B5B5B]'>
                   /
                 </span>
@@ -185,11 +185,10 @@ const Page = () => {
                   <div className='w-auto flex flex-col z-10'>
                     <div className='-mx-[5px]'>
                       <div className='w-full h-full'>
-                        <div className='flex flex-wrap w-full gap-2 md:gap-0'>
+                        <div className='flex flex-wrap w-full md:gap-0'>
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%] h-auto'>
-                            <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                            <div className='shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
@@ -250,11 +249,10 @@ const Page = () => {
                           </div>
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%] h-auto'>
-                            <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                            <div className='shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                                <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
+                                <Image src={t1Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
                                 <div className='text-[20px] md:text-[22px] lg:text-[25px] flex font-bold flex-shrink'>
@@ -313,10 +311,10 @@ const Page = () => {
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
                             <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                                <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
+                                <Image src={t3Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
                                 <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
@@ -377,7 +375,69 @@ const Page = () => {
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
                             <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              <div
+                                className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
+                                <Image src={t4Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
+                              </div>
+                              <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
+                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
+                                  <span className="text-block-wrap-div">Наталя Зінченко</span>
+                                </div>
+                              </div>
+                              <div className='flex flex-col gap-2 text-[15px] text-[#878787] flex-grow'>
+                                <p className='leading-[110%]'>
+                                  Наталя Зінченко – талановитий тренер в нашій спортивній школі, яка присвячена розвитку
+                                  сучасного танцю. З великою енергією та харизмою Наталя веде наші танцювальні групи,
+                                  надаючи кожному учаснику можливість розкрити свою творчість та виразність.
+                                </p>
+                                <p className='leading-[110%]'>
+                                  Її тренування спрямовані на поєднання технічної вправності та емоційного вираження.
+                                  Наталя не лише викладач, а й вдумливий наставник, який надихає своїх учнів до
+                                  досягнень у світі сучасного танцю. Благодаря її підходу, наші танцюристи розвиваються
+                                  як талановиті артисти та творчі особистості.
+                                </p>
+                              </div>
+                              <div className="flex gap-2 items-center mt-[10px]">
+                                <div
+                                  className='hover:bg-blue-400 shadow-blue-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
+                                  <a className="" href="#">
+                                    <div className='p-3'>
+                                      <FaFacebookF className='text-[18px]'/>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div
+                                  className='hover:bg-red-400 shadow-red-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
+                                  <a className="" href="#">
+                                    <div className='p-3'>
+                                      <FaInstagram className='text-[18px]'/>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div
+                                  className='hover:bg-sky-400 shadow-sky-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
+                                  <a className="" href="#">
+                                    <div className='p-3'>
+                                      <FaTelegramPlane className='text-[18px]'/>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div
+                                  className='hover:bg-indigo-400 shadow-indigo-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
+                                  <a className="" href="#">
+                                    <div className='p-3'>
+                                      <FaViber className='text-[18px]'/>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {/**/}
+                          <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
+                            <div
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
                                 <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
@@ -439,10 +499,10 @@ const Page = () => {
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
                             <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                                <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
+                                <Image src={t1Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
                                 <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
@@ -501,10 +561,10 @@ const Page = () => {
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
                             <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full  m-[10px] my-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                                <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
+                                <Image src={t3Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
                                 <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
@@ -563,72 +623,10 @@ const Page = () => {
                           {/**/}
                           <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
                             <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
+                              className=' shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full  m-[5px] my-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
                               <div
                                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                                <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
-                              </div>
-                              <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
-                                <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
-                                  <span className="text-block-wrap-div">Наталя Зінченко</span>
-                                </div>
-                              </div>
-                              <div className='flex flex-col gap-2 text-[15px] text-[#878787] flex-grow'>
-                                <p className='leading-[110%]'>
-                                  Наталя Зінченко – талановитий тренер в нашій спортивній школі, яка присвячена розвитку
-                                  сучасного танцю. З великою енергією та харизмою Наталя веде наші танцювальні групи,
-                                  надаючи кожному учаснику можливість розкрити свою творчість та виразність.
-                                </p>
-                                <p className='leading-[110%]'>
-                                  Її тренування спрямовані на поєднання технічної вправності та емоційного вираження.
-                                  Наталя не лише викладач, а й вдумливий наставник, який надихає своїх учнів до
-                                  досягнень у світі сучасного танцю. Благодаря її підходу, наші танцюристи розвиваються
-                                  як талановиті артисти та творчі особистості.
-                                </p>
-                              </div>
-                              <div className="flex gap-2 items-center mt-[10px]">
-                                <div
-                                  className='hover:bg-blue-400 shadow-blue-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
-                                  <a className="" href="#">
-                                    <div className='p-3'>
-                                      <FaFacebookF className='text-[18px]'/>
-                                    </div>
-                                  </a>
-                                </div>
-                                <div
-                                  className='hover:bg-red-400 shadow-red-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
-                                  <a className="" href="#">
-                                    <div className='p-3'>
-                                      <FaInstagram className='text-[18px]'/>
-                                    </div>
-                                  </a>
-                                </div>
-                                <div
-                                  className='hover:bg-sky-400 shadow-sky-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
-                                  <a className="" href="#">
-                                    <div className='p-3'>
-                                      <FaTelegramPlane className='text-[18px]'/>
-                                    </div>
-                                  </a>
-                                </div>
-                                <div
-                                  className='hover:bg-indigo-400 shadow-indigo-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>
-                                  <a className="" href="#">
-                                    <div className='p-3'>
-                                      <FaViber className='text-[18px]'/>
-                                    </div>
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          {/**/}
-                          <div className='flex max-w-full w-full md:w-[50%] lg:w-[33%]  h-auto'>
-                            <div
-                              className='border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
-                              <div
-                                className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                                <Image src={t2Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
+                                <Image src={t4Image} alt={'qrew'} className='w-full h-full object-cover bg-t-pos'/>
                               </div>
                               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
                                 <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>
@@ -785,51 +783,51 @@ const Page = () => {
             <div className='relative w-full mx-0'>
               <ul className='flex flex-col gap-2.5'>
                 <li>
-                  <a href="#"
+                  <Link href="/"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Головна
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/about-us"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Про нас
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/coaches"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Тренери
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/news"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Новини
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/contacts"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Контакти
                       </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <button onClick={scrollToHeader}
-                className='md:right-[50px] md:top-[50px] top-[100px] right-[40px] absolute flex justify-center items-center rounded-full w-[50px] h-[50px] border-white border-2  transition-all duration-300 hover:bg-[#EFEFEF]/20 z-20'>
+                className='md:right-[50px] md:top-[50px] top-[100px] right-[40px] absolute flex justify-center items-center rounded-full w-[50px] h-[50px] border border-white/50  transition-all duration-300 hover:bg-[#EFEFEF]/20 z-20'>
             <span className='flex justify-center  items-center h-[16px] w-[16px]'>
               <TopIcon/>
             </span>

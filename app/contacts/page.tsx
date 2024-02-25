@@ -8,6 +8,7 @@ import 'react-modern-drawer/dist/index.css'
 // AIzaSyD5hwYSz363sVVRNjrDW1clhseIMzKPDIc
 import {Status, Wrapper} from "@googlemaps/react-wrapper";
 import LatLng = google.maps.LatLng;
+import Link from "next/link";
 
 const Page = () => {
 
@@ -32,12 +33,12 @@ const Page = () => {
         <div className='w-full max-w-[1300px] my-0 mx-auto relative flex justify-between items-center flex-row'>
           <div className='relative flex-grow my-auto pr-[25px]'>
             <div className='flex relative justify-start items-center flex-wrap w-auto overflow-[upset]'>
-              <a href=""
+              <Link href="/"
                  className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                   <span>
                         Головна
                   </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className='relative hidden my-auto md:block'>
@@ -45,36 +46,36 @@ const Page = () => {
               <ul
                 className='p-0 m-0 list-none flex justify-start items-start flex-grow flex-shrink h-[46] w-[1%]'>
                 <li>
-                  <a href=""
+                  <Link href="/about-us"
                      className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Про нас
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/coaches"
                      className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Тренери
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/news"
                      className='text-[14px] font-normal flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Новини
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/contacts"
                      className='text-[14px] font-normal flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Контакти
                       </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -105,44 +106,44 @@ const Page = () => {
           <div className='relative flex-grow w-full mx-0'>
             <ul className='flex flex-col gap-4'>
               <li>
-                <a href="#"
+                <Link href="/"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Головна
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/about-us"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Про нас
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/coaches"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Тренери
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/news"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Новини
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/contacts"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Контакти
                       </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -164,9 +165,9 @@ const Page = () => {
           <div className='max-w-[1300px] mx-auto flex flex-row'>
             <div className='w-full relative'>
               <div className='block text-[14px] text-[#5B5B5B] mb-[10px] '>
-                <a href="#" className='inline-block py-[2px] px-[3px] text-[#E63338] underline'>
+                <Link href="/" className='inline-block py-[2px] px-[3px] text-[#E63338] underline'>
                   <span className="flex-grow  max-w-full inline">Головна</span>
-                </a>
+                </Link>
                 <span className='inline-block py-[2px] px-[3px] text-[#5B5B5B]'>
                   /
                 </span>
@@ -326,44 +327,44 @@ const Page = () => {
             <div className='relative w-full mx-0'>
               <ul className='flex flex-col gap-2.5'>
                 <li>
-                  <a href="#"
+                  <Link href="/"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Головна
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/about-us"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Про нас
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/coaches"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Тренери
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/news"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Новини
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#"
+                  <Link href="/contacts"
                      className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Контакти
                       </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

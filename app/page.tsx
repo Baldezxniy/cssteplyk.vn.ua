@@ -23,6 +23,7 @@ import Drawer from 'react-modern-drawer'
 
 //import styles 👇
 import 'react-modern-drawer/dist/index.css'
+import Link from "next/link";
 
 
 export default function Home() {
@@ -44,12 +45,12 @@ export default function Home() {
         <div className='w-full max-w-[1300px] my-0 mx-auto relative flex justify-between items-center flex-row'>
           <div className='relative flex-grow my-auto pr-[25px]'>
             <div className='flex relative justify-start items-center flex-wrap w-auto overflow-[upset]'>
-              <a href=""
+              <Link href="/"
                  className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                   <span>
                         Головна
                   </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className='relative hidden my-auto md:block'>
@@ -57,36 +58,36 @@ export default function Home() {
               <ul
                 className='p-0 m-0 list-none flex justify-start items-start flex-grow flex-shrink h-[46] w-[1%]'>
                 <li>
-                  <a href=""
+                  <Link href="/about-us"
                      className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Про нас
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/coaches"
                      className='text-[14px] flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Тренери
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/news"
                      className='text-[14px] font-normal flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Новини
                       </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <Link href="/contacts"
                      className='text-[14px] font-normal flex justify-between items-center p-[15px] transition-all duration-300 ease-in text-white uppercase hover:opacity-30'>
                       <span>
                         Контакти
                       </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -105,7 +106,7 @@ export default function Home() {
         className='bg-right-menu px-[5%] w-[340px]'
       >
         <div className='h-full py-4 flex flex-col'>
-          <div className='flex  justify-between py-[15px] leading-[160%] mb-[10px]'>
+          <div className='flex justify-between py-[15px] leading-[160%] mb-[10px]'>
             <div className='text-[22px] mr-[40px] inline-flex text-white font-bold'>
               <span className="flex-grow max-w-full">Навігація по сайті</span>
             </div>
@@ -117,44 +118,44 @@ export default function Home() {
           <div className='relative flex-grow w-full mx-0'>
             <ul className='flex flex-col gap-4'>
               <li>
-                <a href="#"
+                <Link href="/"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Головна
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/about-us"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Про нас
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/coaches"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Тренери
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/news"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Новини
                       </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#"
+                <Link href="/contacts"
                    className='text-white/90 text-[22px] py-[7px] duration-300 transition-all font-sans ease-in'>
                       <span className='flex-grow max-w-full'>
                         Контакти
                       </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -162,7 +163,6 @@ export default function Home() {
             <div role='button'
                  className=' flex justify-center cursor-pointer py-[18px] px-[30px] bg-[#E63338] mt-5 rounded-[250px] text-white hover:bg-red-400 duration-300'>
                   <span>
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Зв'язатися з нами
                   </span>
             </div>
@@ -324,11 +324,6 @@ export default function Home() {
                           Легка атлетика у нашій школі це - біг, стрибки, та метання. Вчимо фізичному розвитку з досвідченими тренерами. Приєднуйтесь до яскравих спортивних вражень!
                         </span>
                       </div>
-                      {/*2xl:flex*/}
-                      <a href='#'
-                         className='hidden py-[16px] px-[30px] bg-[#E63338] mt-[20px] rounded-[250px] text-white'>
-                        Детальніше
-                      </a>
                     </div>
                   </div>
                   {/**/}
@@ -361,11 +356,6 @@ export default function Home() {
                           Волейбол у нашій школі — це захоплюючі тренування та командна гра. Приєднуйтесь до нас для отримання нових навичок та веселих моментів!
                         </span>
                       </div>
-                      {/*2xl:flex*/}
-                      <a href='#'
-                         className='hidden py-[16px] px-[30px] bg-[#E63338] mt-[20px] rounded-[250px] text-white'>
-                        Детальніше
-                      </a>
                     </div>
                   </div>
                   {/**/}
@@ -398,11 +388,6 @@ export default function Home() {
                           Греко-римська боротьба в нашій школі — це майстерні тренування та стратегічна гра. Приєднуйтесь до нас для вивчення навичок і задоволення від цього захоплюючого виду спорту!
                         </span>
                       </div>
-                      {/*2xl:flex*/}
-                      <a href='#'
-                         className='hidden py-[16px] px-[30px] bg-[#E63338] mt-[20px] rounded-[250px] text-white'>
-                        Детальніше
-                      </a>
                     </div>
                   </div>
                   {/**/}
@@ -435,11 +420,6 @@ export default function Home() {
                           Футбол у нашій школі — це емоційні тренування та командна гра. На уроках ми вдосконалюємо техніку гри та вчитимося працювати разом в команді. Приєднуйтесь до нас для отримання нових футбольних навичок та веселих моментів на полі!
                         </span>
                       </div>
-                      {/*2xl:flex*/}
-                      <a href='#'
-                         className='hidden py-[16px] px-[30px] bg-[#E63338] mt-[20px] rounded-[250px] text-white'>
-                        Детальніше
-                      </a>
                     </div>
                   </div>
                   {/**/}
@@ -472,11 +452,6 @@ export default function Home() {
                           Стрільба кульова в нашій школі — це високотехнічні тренування та вдосконалення навичок. Приєднуйтесь до нас, щоб вивчати техніку та досягати нових висот у цьому захопливому виді спорту!
                         </span>
                       </div>
-                      {/*2xl:flex*/}
-                      <a href='#'
-                         className='hidden py-[16px] px-[30px] bg-[#E63338] mt-[20px] rounded-[250px] text-white'>
-                        Детальніше
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -900,44 +875,44 @@ export default function Home() {
               <div className='relative w-full mx-0'>
                 <ul className='flex flex-col gap-2.5'>
                   <li>
-                    <a href="#"
+                    <Link href="/"
                        className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Головна
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#"
+                    <Link href="/about-us"
                        className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Про нас
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#"
+                    <Link href="/coaches"
                        className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Тренери
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#"
+                    <Link href="/news"
                        className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Новини
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#"
+                    <Link href="contacts"
                        className='text-white/60 text-[16px] py-[7px] duration-300 transition-all font-sans ease-in hover:text-[#E63338]'>
                       <span className='flex-grow max-w-full'>
                         Контакти
                       </span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
