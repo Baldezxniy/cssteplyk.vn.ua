@@ -14,6 +14,7 @@ import ATHLETICS from "@/public/55352045_2.jpg";
 import {FaBeer, FaFacebook, FaFacebookF, FaInstagram, FaTelegramPlane, FaViber} from "react-icons/fa";
 import {MdOutlinePhoneInTalk} from "react-icons/md";
 import Link from "next/link";
+import mainImg from "@/public/main.jpg";
 
 
 const Page = () => {
@@ -184,6 +185,34 @@ const Page = () => {
               <div className='w-full relative text-black font-sans [#676767]'>
                 <div className='pt-[25px] lg:pt-[25px] pb-[50px] lg:pb-[100px] z-10'>
                   <div className='w-auto flex flex-col z-10'>
+                    <div
+                      className="flex-col lg:flex-row flex justify-around lg:gap-12 mb-[20px] sm:mb-[30px] md:mb-[40px] lg:mb-[60px]">
+                      <div className="flex flex-col lg:w-[45%] mb-[30px]">
+                        <h1
+                          className="font-semibold font-sans  leading-[110%] text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] lg:mb-8">
+                          Наша віддана команда тренерів - це ключовий фактор у реалізації спортивних мрій та формування
+                          майбутніх чемпіонів.
+                        </h1>
+                        <div className="text-[18px] leading-[160%] xl:text-xl hidden lg:block">
+                          Тренери нашої команди - це віддані фахівці, які не лише володіють глибоким розумінням та
+                          досвідом у своїх галузах, але й активно створюють стимулююче середовище для розвитку та
+                          досягнень учнів. Вони індивідуально пристосовані до потреб кожного спортсмена, не лише
+                          передаючи технічні аспекти гри, але й виховуючи дисципліну та надихаючи на успіх у спортивному
+                          шляху.
+                        </div>
+                      </div>
+                      <div className='lg:w-[55%]'>
+                        <Image src={t3Image} className='border-2 border-black/20 w-full rounded-[20px] shadow-2xl shadow-slate-200 min-h-full lg:h-[400px] object-cover' alt="Main Image"/>
+                        <div className="text-[16px] sm:text-[20px] leading-[130%] lg:hidden mt-[30px]">
+                          Тренери нашої команди - це віддані фахівці, які не лише володіють глибоким розумінням та
+                          досвідом у своїх галузах, але й активно створюють стимулююче середовище для розвитку та
+                          досягнень учнів. Вони індивідуально пристосовані до потреб кожного спортсмена, не лише
+                          передаючи технічні аспекти гри, але й виховуючи дисципліну та надихаючи на успіх у спортивному
+                          шляху.
+                        </div>
+                      </div>
+                    </div>
+
                     <div className='-mx-[5px]'>
                       <div className='w-full h-full'>
                         <div className='flex flex-wrap w-full md:gap-0'>

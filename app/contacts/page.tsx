@@ -180,7 +180,7 @@ const Page = () => {
                 Контакти
               </h1>
               <div className='w-full text-[#676767]'>
-                <div className='py-[40px] '>
+                <div className='py-[40px]'>
                   <div className='text-left relative'>
                     <div className='sm:-mx-[16px] flex-col-reverse flex sm:flex-row-reverse'>
                       <div className='min-h-[240px] sm:w-[60%] flex flex-grow'>
