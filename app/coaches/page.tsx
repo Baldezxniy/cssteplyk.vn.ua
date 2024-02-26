@@ -188,11 +188,11 @@ const Page = () => {
                     <div
                       className="flex-col lg:flex-row flex justify-around lg:gap-12 mb-[20px] sm:mb-[30px] md:mb-[40px] lg:mb-[60px]">
                       <div className="flex flex-col lg:w-[45%] mb-[30px]">
-                        <h1
+                        <h2
                           className="font-semibold font-sans  leading-[110%] text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] lg:mb-8">
                           Наша віддана команда тренерів - це ключовий фактор у реалізації спортивних мрій та формування
                           майбутніх чемпіонів.
-                        </h1>
+                        </h2>
                         <div className="text-[18px] leading-[160%] xl:text-xl hidden lg:block">
                           Тренери нашої команди - це віддані фахівці, які не лише володіють глибоким розумінням та
                           досвідом у своїх галузах, але й активно створюють стимулююче середовище для розвитку та
