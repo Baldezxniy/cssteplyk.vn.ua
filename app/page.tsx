@@ -4,11 +4,15 @@ import Image from "next/image";
 
 import ATHLETICS from '../public/55352045_2.jpg'
 import WORK from '../public/55315018.jpg'
-
-import t1Image from '../public/t1.jpg'
-import t2Image from '../public/t2.jpg'
-import t3Image from '../public/t3.jpg'
-import t4Image from '../public/t4.jpg'
+import t_1Image from '../public/t_1.jpg'
+import t_2Image from '../public/t_2.jpg'
+import t_3Image from '../public/t_3.jpg'
+import t_4Image from '../public/t_4.jpg'
+import t_5Image from '../public/t_5.jpg'
+import t_6Image from '../public/t-6.jpg'
+import t_7Image from '../public/t-7.jpg'
+import t_8Image from '../public/t-8.jpg'
+import t_9Image from '../public/image_2024-03-18_15-49-06.jpg'
 
 import img1 from '../public/1_2.png'
 import img2 from '../public/2.png'
@@ -23,6 +27,7 @@ import Drawer from 'react-modern-drawer'
 //import styles 👇
 import 'react-modern-drawer/dist/index.css'
 import Link from "next/link";
+import {coaches} from "@/app/utils/coachesEntities";
 
 
 export default function Home() {
@@ -199,10 +204,10 @@ export default function Home() {
               </div>
               <div role='button'
                    className='hidden lg:flex cursor-pointer py-[20px] px-[35px] bg-[#E63338] mt-5 rounded-[250px] text-white hover:bg-red-400 duration-300'>
-                  <span>
+                <a href="tel:+380972148030">
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Зв'язатися з нами
-                  </span>
+                </a>
               </div>
             </div>
             <div
@@ -306,45 +311,13 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={ATHLETICS} alt={'qrew'} className='w-full h-full object-cover'/>
-                      </div>
-                      <div className='w-full flex flex-col mb-[15px]'>
-                        <div
-                          className='rounded-[250px] w-[35px] h-[35px] flex  justify-center items-center bg-white -mt-[20px] ml-[15px] mb-[20px]'>
-                          <div className='flex'>
-                            <span className="flex-grow w-full">01</span>
-                          </div>
-                        </div>
-                        <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="flex-grow max-w-full">ЛЕГКАЯ АТЛЕТИКА</span>
-                        </div>
-                      </div>
-                      <div className='flex text-[14px] text-[#878787] flex-grow'>
-                        <span className='flex-grow w-full'>
-                          Легка атлетика у нашій школі це - біг, стрибки, та метання. Вчимо фізичному розвитку з досвідченими тренерами. Приєднуйтесь до яскравих спортивних вражень!
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  {/**/}
-                  <div className='flex max-w-full w-full md:w-[50%] h-auto'>
-                    <div
-                      className='flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[30px] bg-white pb-[30px] px-[30px] pt-[8px]'>
-                      <div
-                        className='w-[60px] flex h-[60px] bg-white rounded-[250px] justify-center items-center -mb-[30px] z-10 ml-auto mr-[10px]'>
-                        <span className='relative flex justify-center items-center h-[40px] w-[40px] bg-white'>
-                          <BallSvg/>
-                        </span>
-                      </div>
-                      <div
-                        className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
                         <Image src={ATHLETICS} alt={'lasdf'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
                           className='rounded-[250px] w-[35px] h-[35px] flex  justify-center items-center bg-white -mt-[20px] ml-[15px] mb-[20px]'>
                           <div className='flex'>
-                            <span className="flex-grow w-full">02</span>
+                            <span className="flex-grow w-full">01</span>
                           </div>
                         </div>
                         <div className='text-[20px] flex font-bold flex-shrink uppercase'>
@@ -358,6 +331,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  {/**/}
                   {/**/}
                   <div className='flex max-w-full w-full md:w-[50%] h-auto'>
                     <div
@@ -376,7 +350,7 @@ export default function Home() {
                         <div
                           className='rounded-[250px] w-[35px] h-[35px] flex  justify-center items-center bg-white -mt-[20px] ml-[15px] mb-[20px]'>
                           <div className='flex'>
-                            <span className="flex-grow w-full">03</span>
+                            <span className="flex-grow w-full">02</span>
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
@@ -390,6 +364,42 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+
+                  {/**/}
+                  <div className='flex max-w-full w-full md:w-[50%] h-auto'>
+                    <div
+                      className='flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] flex flex-col items-start justify-start rounded-[30px] bg-white pb-[30px] px-[30px] pt-[8px]'>
+                      <div
+                        className='w-[60px] flex h-[60px] bg-white rounded-[250px] justify-center items-center -mb-[30px] z-10 ml-auto mr-[10px]'>
+                        <span className='relative flex justify-center items-center h-[40px] w-[40px] bg-white'>
+                          <BallSvg/>
+                        </span>
+                      </div>
+                      <div
+                        className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
+                        <Image src={ATHLETICS} alt={'qrew'} className='w-full h-full object-cover'/>
+                      </div>
+                      <div className='w-full flex flex-col mb-[15px]'>
+                        <div
+                          className='rounded-[250px] w-[35px] h-[35px] flex  justify-center items-center bg-white -mt-[20px] ml-[15px] mb-[20px]'>
+                          <div className='flex'>
+                            <span className="flex-grow w-full">03</span>
+                          </div>
+                        </div>
+                        <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
+                          <span className="flex-grow max-w-full">ЛЕГКАЯ АТЛЕТИКА</span>
+                        </div>
+                      </div>
+                      <div className='flex text-[14px] text-[#878787] flex-grow'>
+                        <span className='flex-grow w-full'>
+                          Легка атлетика у нашій школі це - біг, стрибки, та метання. Вчимо фізичному розвитку з досвідченими тренерами. Приєднуйтесь до яскравих спортивних вражень!
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  {/**/}
+
+
                   {/**/}
                   <div className='flex max-w-full w-full md:w-[50%] h-auto'>
                     <div
@@ -412,12 +422,12 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="flex-grow max-w-full">Футбол</span>
+                          <span className="flex-grow max-w-full">Стрільба кульова</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
                         <span className='flex-grow w-full'>
-                          Футбол у нашій школі — це емоційні тренування та командна гра. На уроках ми вдосконалюємо техніку гри та вчитимося працювати разом в команді. Приєднуйтесь до нас для отримання нових футбольних навичок та веселих моментів на полі!
+                          Стрільба кульова в нашій школі — це високотехнічні тренування та вдосконалення навичок. Приєднуйтесь до нас, щоб вивчати техніку та досягати нових висот у цьому захопливому виді спорту!
                         </span>
                       </div>
                     </div>
@@ -444,14 +454,15 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="flex-grow max-w-full">Стрільба кульова</span>
+                          <span className="flex-grow max-w-full">Футбол</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
                         <span className='flex-grow w-full'>
-                          Стрільба кульова в нашій школі — це високотехнічні тренування та вдосконалення навичок. Приєднуйтесь до нас, щоб вивчати техніку та досягати нових висот у цьому захопливому виді спорту!
+                          Футбол у нашій школі — це емоційні тренування та командна гра. На уроках ми вдосконалюємо техніку гри та вчитимося працювати разом в команді. Приєднуйтесь до нас для отримання нових футбольних навичок та веселих моментів на полі!
                         </span>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -658,13 +669,13 @@ export default function Home() {
                     Якщо у вас є якісь питання, ви можете зв'язатися з нами прямо зараз
                   </span>
                 </div>
-                <div
+                <a href="tel:+380972148030"
                   className='flex cursor-pointer py-[20px] px-[35px] bg-[#E63338] md:mt-[30px] mt-[20px] rounded-[250px] text-[16px] text-white transition-all duration-300 hover:bg-red-400 ease-in'>
                   <div className=''>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <span className="flex-grow max-w-full">Зв'язатися з нами</span>
                   </div>
-                </div>
+                </a>
               </div>
               <div className='lg:block hidden bg-image-join-us ml-auto rounded-[30px] w-[40%]'>
               </div>
@@ -678,113 +689,14 @@ export default function Home() {
               <div
                 className='sm:leading-[150%] hidden sm:flex text-white mb-[5px] uppercase text-[16px] px-[10px] py-[5px] bg-[#2B282F] rounded-[10px] sm:mb-[12px]'>
                 <span
-                  className="flex-grow max-w-full">КРАЩІ ВЧИТЕЛЯ ДЛЯ ВАШОЇ ДИТИНИ: ДОСВІД, НАТХНЕННЯ ТА ДОКОЛОТ</span>
+                  className="flex-grow max-w-full">КРАЩІ ВЧИТЕЛЯ ДЛЯ ВАШОЇ ДИТИНИ: ДОСВІД ТА НАТХНЕННЯ </span>
               </div>
               <div className='text-[22px] sm:text-[30px] md:text-[35px] lg:text-[3vw] flex font-bold text-center'>
                 <span className="flex-grow max-w-full">Наші тренера та вчителі</span>
               </div>
             </div>
             <div className='overflow-hidden mt-[30px] md:mt-[50px] -mx-[10px]'>
-              <Swiper className=''
-                      autoplay={{
-                        waitForTransition: true,
-                        delay: 1000
-                      }}
-
-                      loop={true}
-                      slidesPerView={2}
-                      freeMode={true}
-                      breakpoints={{
-                        310: {
-                          slidesPerView: 1,
-                        },
-                        640: {
-                          slidesPerView: 1,
-                        },
-                        768: {
-                          slidesPerView: 2,
-                        },
-                        1240: {
-                          slidesPerView: 2,
-                        },
-                        1650: {
-                          slidesPerView: 2,
-                        }
-                      }}
-              >
-                <SwiperSlide className=' swiper-slide flex-grow flex flex-shrink-0 max-w-full w-full [50%] h-auto'>
-                  <div
-                    className='flex-shrink relative flex-grow min-w-[auto] max-w-full m-[10px] rounded-[30px] overflow-hidden'>
-                    <div className='rounded-[30px] overflow-hidden relative w-full'>
-                      <div className='block w-full h-[350px] rounded-[30px] transition-all duration-300 ease-in'>
-                        <Image src={t1Image} alt={'T1'} className='w-full h-full object-fit-cover'/>
-                      </div>
-                    </div>
-                    <div className='absolute w-full bottom-0 p-[35px] top-auto bg-t-img'>
-                      <div className='text-[24px] leading-normal flex text-white font-sans font-bold'>
-                        <span className="flex-grow max-w-full">Володимир Руденко</span>
-                      </div>
-                      <div className='flex relative font-medium text-white/70 font-sans mt-[5px] leading-[100%]'>
-                        <span className="flex-grow max-w-full">Тренер волейботу, та наш деректор</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className='flex-grow flex flex-shrink-0 max-w-full w-full [50%] h-auto'>
-                  <div
-                    className='flex-shrink relative flex-grow min-w-[auto] max-w-full m-[10px] rounded-[30px] overflow-hidden'>
-                    <div className='rounded-[30px] overflow-hidden relative w-full'>
-                      <div className='block w-full h-[350px] rounded-[30px] transition-all duration-300 ease-in'>
-                        <Image src={t2Image} alt={'T1'} className='w-full h-full object-fit-cover'/>
-                      </div>
-                    </div>
-                    <div className='absolute w-full bottom-0 p-[35px] top-auto bg-t-img'>
-                      <div className='text-[24px] leading-normal flex text-white font-sans font-bold'>
-                        <span className="flex-grow max-w-full">Володимир Руденко</span>
-                      </div>
-                      <div className='flex relative text-white/70 font-sans mt-[5px]'>
-                        <span className="flex-grow max-w-full">Тренер волейботу, та наш деректор</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className='flex-grow flex flex-shrink-0 max-w-full w-full [50%] h-auto'>
-                  <div
-                    className='flex-shrink relative flex-grow min-w-[auto] max-w-full m-[10px] rounded-[30px] overflow-hidden'>
-                    <div className='rounded-[30px] overflow-hidden relative w-full'>
-                      <div className='block w-full h-[350px] rounded-[30px] transition-all duration-300 ease-in'>
-                        <Image src={t3Image} alt={'T1'} className='w-full h-full object-fit-cover'/>
-                      </div>
-                    </div>
-                    <div className='absolute w-full bottom-0 p-[35px] top-auto bg-t-img'>
-                      <div className='text-[24px] leading-normal flex text-white font-sans font-bold'>
-                        <span className="flex-grow max-w-full">Володимир Руденко</span>
-                      </div>
-                      <div className='flex relative text-white/70 font-sans mt-[5px]'>
-                        <span className="flex-grow max-w-full">Тренер волейботу, та наш деректор</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className='flex-grow flex flex-shrink-0 max-w-full w-full [50%] h-auto'>
-                  <div
-                    className='flex-shrink relative flex-grow min-w-[auto] max-w-full m-[10px] rounded-[30px] overflow-hidden'>
-                    <div className='rounded-[30px] overflow-hidden relative w-full'>
-                      <div className='block w-full h-[350px] rounded-[30px] transition-all duration-300 ease-in'>
-                        <Image src={t4Image} alt={'T1'} className='w-full h-full object-fit-cover'/>
-                      </div>
-                    </div>
-                    <div className='absolute w-full bottom-0 p-[35px] top-auto bg-t-img'>
-                      <div className='text-[24px] leading-normal flex text-white font-sans font-bold'>
-                        <span className="flex-grow max-w-full">Володимир Руденко</span>
-                      </div>
-                      <div className='flex relative text-white/70 font-sans mt-[5px]'>
-                        <span className="flex-grow max-w-full">Тренер волейботу, та наш деректор</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
+              <SwiperElement/>
             </div>
           </div>
         </div>
@@ -809,7 +721,7 @@ export default function Home() {
                     </div>
                     <div className='block'>
                       <div className='flex items-center'>
-                        <a className="flex-grow max-w-full" href="tel:+380999999999">+38 099 999 99 99</a>
+                        <a className="flex-grow max-w-full" href="tel:+380972148030">+380 97 214 80 30</a>
                       </div>
                     </div>
                   </div>
@@ -827,7 +739,7 @@ export default function Home() {
                     </div>
                     <div className='block'>
                       <div className='flex items-center'>
-                        <span className='flex-grow max-w-full'>Україна, Вінницька область, смт. Теплик, в. Незалежності 3А</span>
+                        <span className='flex-grow max-w-full'>Україна, Вінницька область, смт. Теплик, вул. Незалежності 1А</span>
                       </div>
                     </div>
                   </div>
@@ -846,7 +758,7 @@ export default function Home() {
                     </div>
                     <div className='block'>
                       <div className='flex items-center font-bold text-[#E63338]'>
-                        <a className='flex-grow max-w-full' href='mailto:gmail@gmail.com'>gmail@gmail.com</a>
+                        <a className='flex-grow max-w-full' href='mailto:cssteplyk@gmail.com'>cssteplyk@gmail.com</a>
                       </div>
                     </div>
                   </div>
@@ -860,13 +772,13 @@ export default function Home() {
               <div className='flex text-[14px] text-white/50 mb-[7px] font-sans text-left'>
                 <span className="flex-grow max-w-full">Отримайте відповідь на телефон або напишіть нам</span>
               </div>
-              <div
+              <a href="tel:+380972148030"
                 className='flex cursor-pointer py-[20px] px-[35px] bg-[#E63338] mt-[40px] rounded-[250px] transition-all duration-300 hover:bg-red-400 ease-in text-white'>
                 <div className='font-sans'>
                   {/* eslint-disable-next-line react/no-unescaped-entities */}
                   <span className="flex-grow max-w-full">Зв'язатися з нами</span>
                 </div>
-              </div>
+              </a>
             </div>
             <div className='hidden w-[33.333%] relative lg:flex px-[60px] flex-col'>
               <div className='text-[20px] mb-[15px] inline-flex text-white font-bold'>
@@ -1007,3 +919,58 @@ const TopIcon = () => (
           className="path-ibmfwgtyz"></path>
   </svg>
 )
+
+
+const SwiperElement = () => {
+  return <Swiper className=''
+                 autoplay={{
+                   waitForTransition: true,
+                   delay: 1000
+                 }}
+
+                 loop={true}
+                 slidesPerView={2}
+                 freeMode={true}
+                 breakpoints={{
+                   310: {
+                     slidesPerView: 1,
+                   },
+                   640: {
+                     slidesPerView: 1,
+                   },
+                   768: {
+                     slidesPerView: 2,
+                   },
+                   1240: {
+                     slidesPerView: 2,
+                   },
+                   1650: {
+                     slidesPerView: 2,
+                   }
+                 }}
+  >
+    {
+      coaches.map(el => (
+        <SwiperSlide key={el.name}
+                     className=' swiper-slide flex-grow flex flex-shrink-0 max-w-full w-full [50%] h-auto'>
+          <div
+            className='flex-shrink relative flex-grow min-w-[auto] max-w-full m-[10px] rounded-[30px] overflow-hidden'>
+            <div className='rounded-[30px] overflow-hidden relative w-full'>
+              <div className='block w-full h-[350px] rounded-[30px] transition-all duration-300 ease-in'>
+                <Image src={el.img} alt={"Фото " + el.name} className={'w-full h-full ' + el.classPhoto}/>
+              </div>
+            </div>
+            <div className='absolute w-full bottom-0 p-[35px] top-auto bg-t-img'>
+              <div className='text-[24px] leading-normal flex text-white font-sans font-bold'>
+                <span className="flex-grow max-w-full">{el.name}</span>
+              </div>
+              <div className='flex relative font-medium text-white/70 font-sans mt-[5px] leading-[100%]'>
+                <span className="flex-grow max-w-full">{el.description}</span>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+      ))
+    }
+  </Swiper>
+}

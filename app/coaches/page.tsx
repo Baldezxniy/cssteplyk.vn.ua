@@ -16,6 +16,18 @@ import {MdOutlinePhoneInTalk} from "react-icons/md";
 import Link from "next/link";
 import mainImg from "@/public/main.jpg";
 
+import  LyudmilaKropivyanska from '../../public/img/coaches/Lyudmila-Kropivyanska.jpg'
+import  PetroGarnik from '../../public/img/coaches/Petro-Garnik.jpg'
+import  SergeyVorozhbit from '../../public/img/coaches/Sergey-Vorozhbit.jpg'
+import  SvetlanaGranik from '../../public/img/coaches/Svetlana-Granik.jpg'
+import  VadimDrachuk from '../../public/img/coaches/Vadim-Drachuk.jpg'
+import  ValeryPisarenko from '../../public/img/coaches/Valery-Pisarenko.jpg'
+import  VictorSemenovich from '../../public/img/coaches/Victor-Semenovich.jpg'
+import  VolodymyrYakovich from '../../public/img/coaches/Volodymyr-Yakovich.jpg'
+
+
+
+
 
 const Page = () => {
 
@@ -195,7 +207,7 @@ const Page = () => {
                         </h2>
                         <div className="text-[18px] leading-[160%] xl:text-xl hidden lg:block">
                           Тренери нашої команди - це віддані фахівці, які не лише володіють глибоким розумінням та
-                          досвідом у своїх галузах, але й активно створюють стимулююче середовище для розвитку та
+                          досвідом у своїх галузях, але й активно створюють стимулююче середовище для розвитку та
                           досягнень учнів. Вони індивідуально пристосовані до потреб кожного спортсмена, не лише
                           передаючи технічні аспекти гри, але й виховуючи дисципліну та надихаючи на успіх у спортивному
                           шляху.
@@ -205,7 +217,7 @@ const Page = () => {
                         <Image src={t3Image} className='border-2 border-black/20 w-full rounded-[20px] shadow-2xl shadow-slate-200 min-h-full lg:h-[400px] object-cover' alt="Main Image"/>
                         <div className="text-[16px] sm:text-[20px] leading-[130%] lg:hidden mt-[30px]">
                           Тренери нашої команди - це віддані фахівці, які не лише володіють глибоким розумінням та
-                          досвідом у своїх галузах, але й активно створюють стимулююче середовище для розвитку та
+                          досвідом у своїх галузях, але й активно створюють стимулююче середовище для розвитку та
                           досягнень учнів. Вони індивідуально пристосовані до потреб кожного спортсмена, не лише
                           передаючи технічні аспекти гри, але й виховуючи дисципліну та надихаючи на успіх у спортивному
                           шляху.

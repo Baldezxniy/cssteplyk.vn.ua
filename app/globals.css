@@ -98,8 +98,46 @@
 
 .object-fit-cover {
     object-fit: cover;
+    object-position: 50% 40% ;
 }
 
+.object-fit-cover-t1{
+    object-fit: cover;
+    object-position: 0px 10% ;
+}
+.object-fit-cover-t2{
+    object-fit: cover;
+    object-position: 0px 53% ;
+}
+
+.object-fit-cover-t3{
+    object-fit: cover;
+    object-position: 0px 20% ;
+}
+
+.object-fit-cover-t4{
+    object-fit: cover;
+    object-position: 0px 63% ;
+}
+
+.object-fit-cover-t6{
+    object-fit: cover;
+    object-position: 0px 53% ;
+}
+
+.object-fit-cover-t7{
+    object-fit: cover;
+    object-position: 0px 23% ;
+}
+
+.object-fit-cover-t8{
+    object-fit: cover;
+    object-position: 0px 40% ;
+}
+.object-fit-cover-t9{
+    object-fit: cover;
+    object-position: 0px 30% ;
+}
 
 .mail-images-first-first-img-2 {
     box-shadow: 0px 15px 14px -16px rgba(0, 0, 0, 0.3);
