@@ -21,7 +21,7 @@ export const coaches: Coaches[] = [
   {
     name: "Володимир Руденко",
     img: VolodymyrYakovich,
-    description: "Тренер-викладач з волейболу",
+    description: "Дерктор та тренер-викладач з волейболу",
     classPhoto: "object-fit-cover"
   },
 
