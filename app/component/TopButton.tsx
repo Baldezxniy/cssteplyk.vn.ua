@@ -18,7 +18,7 @@ const TopButton = () => {
 const TopIcon = () => (
   <svg fill='white' xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 46.999 29.969"
        data-prefix="ih7qzmjv5">
-    <path d="M41.176 29.977L23.5 11.903 5.824 29.977.001 24.024l23.5-24.027 23.5 24.027z" fill-rule="evenodd"
+    <path d="M41.176 29.977L23.5 11.903 5.824 29.977.001 24.024l23.5-24.027 23.5 24.027z" fillRule="evenodd"
           className="path-ibmfwgtyz"></path>
   </svg>
 )

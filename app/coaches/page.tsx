@@ -1,6 +1,3 @@
-
-import Drawer from 'react-modern-drawer'
-
 import 'react-modern-drawer/dist/index.css'
 import React from "react";
 import Image from "next/image";
@@ -9,9 +6,30 @@ import t3Image from '../../public/t3.jpg'
 import Link from "next/link";
 
 import {coachesInPage} from "@/app/utils/coachesEntities";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Наші тренери - Теплицька спортивна школа в Теплику',
+  description: 'Ознайомтеся з нашими висококваліфікованими тренерами у Теплицькій спортивній школі в місті Теплику. Наші тренери працюють з учнями в різних спортивних напрямках, допомагаючи їм досягати високих результатів.',
+  keywords: [
+    'тренери школа теплик',
+    'спортшкола теплик тренери',
+    'теплик школа тренери',
+    'тренери тепликцької школи',
+    'спортшкола тренери',
+    'школа тренер теплик',
+    'теплицькі тренери',
+    'теплик стадіон тренери',
+    'тренери теплика',
+    'теплицькі тренери',
+    'контакти спорт теплик',
+    'контакти теплик школа',
+    'борьба теплик'// Добавляем ключевую фразу для лучшего определения сайта по запросу "спорт школа Теплик".
+  ],
+}
+
 
 const Page = () => {
-
 
   return (
     <main
@@ -114,40 +132,6 @@ const CoachesPhotos = () => {
                   {coach.secondParagraph}
                 </p>
               </div>
-              {/*<div className="flex gap-2 items-center mt-[10px]">*/}
-              {/*  <div*/}
-              {/*    className='hover:bg-blue-400 shadow-blue-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>*/}
-              {/*    <a className="" href="#">*/}
-              {/*      <div className='p-3'>*/}
-              {/*        <FaFacebookF className='text-[18px]'/>*/}
-              {/*      </div>*/}
-              {/*    </a>*/}
-              {/*  </div>*/}
-              {/*  <div*/}
-              {/*    className='hover:bg-red-400 shadow-red-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>*/}
-              {/*    <a className="" href="#">*/}
-              {/*      <div className='p-3'>*/}
-              {/*        <FaInstagram className='text-[18px]'/>*/}
-              {/*      </div>*/}
-              {/*    </a>*/}
-              {/*  </div>*/}
-              {/*  <div*/}
-              {/*    className='hover:bg-sky-400 shadow-sky-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>*/}
-              {/*    <a className="" href="#">*/}
-              {/*      <div className='p-3'>*/}
-              {/*        <FaTelegramPlane className='text-[18px]'/>*/}
-              {/*      </div>*/}
-              {/*    </a>*/}
-              {/*  </div>*/}
-              {/*  <div*/}
-              {/*    className='hover:bg-indigo-400 shadow-indigo-400 shadow-lg hover:text-white duration-300 transition-all relative rounded-[8px]'>*/}
-              {/*    <a className="" href="#">*/}
-              {/*      <div className='p-3'>*/}
-              {/*        <FaViber className='text-[18px]'/>*/}
-              {/*      </div>*/}
-              {/*    </a>*/}
-              {/*  </div>*/}
-              {/*</div>*/}
             </div>
           </div>
         ))
