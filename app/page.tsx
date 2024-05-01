@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 
-import LEGKA_STATIC_BLOCK from '../public/img/main/20240429_150526.jpg'
+import VOLLEYBALL_STATIC_BLOCK from '../public/img/main/20240429_150526.jpg'
 import img1 from '../public/1_2.png'
 import img2 from '../public/2.png'
 
@@ -339,26 +339,21 @@ export default function Home() {
           </div>
 
         </div>
-        {/*/*/}
         <div className='px-[5%] pt-[50px] py-[100px] z-10 mail-images'>
           <div className='w-full max-w-[1300px] mx-auto flex flex-col md:flex-row z-10'>
             <div className='hidden w-[25%] lg:flex pr-[30px] pb-[30px] mail-images-first rounded-[30px] flex-col'>
               <div className='w-full block mail-images-first-first-img-1 rounded-[30px] flex-grow mb-[20px]'>
               </div>
-              <div className='flex flex-col items-center mr-auto ml-0 justify-start'>
-                <div className='relative h-[200px] mb-[12px] rounded-[20px] overflow-hidden'>
-                  <Image src={LEGKA_STATIC_BLOCK} alt={'rqwe'} className='object-fit-cover w-full h-full'/>
+              <div className='flex w-full flex-col items-center mr-auto ml-0 justify-start'>
+                <div className='relative w-full h-[200px] mb-[12px] rounded-[20px] overflow-hidden'>
+                  <Image src={VOLLEYBALL_STATIC_BLOCK} alt='Волейбольний майданчик' className='object-fit-cover w-full h-full'/>
                   <div
                     className='flex absolute left-0 right-0 top-0 bottom-0 bg-[#2B282F]/1000 flex-col items-center justify-center '>
                     <div className='font-bold inline-flex text-[80px] text-white'>
-                      {/*<span className="flex-grow w-full">34</span>*/}
                     </div>
                   </div>
                 </div>
-                {/*<div*/}
-                {/*  className='text-[18px] -mt-[40px] flex text-[#262626] px-[20px] py-[10px] rounded-[20px] bg-white mail-images-first-first-img-2 z-40 justify-center'>*/}
-                {/*  <span className="flex-grow w-full">років роботи</span>*/}
-                {/*</div>*/}
+
               </div>
             </div>
             <div className='w-full md:w-[60%] lg:w-[50%] lg:px-[50px] md:pr-[50px]  flex flex-col'>

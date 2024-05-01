@@ -187,7 +187,7 @@
 }
 
 .bg-image-join-us {
-    background-image: url("https://mos-940100.oml.ru/d/55352045_2.jpg");
+    background-image: url("../public/sports/attlet.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -384,23 +384,10 @@
     transform: rotate(-45deg);
 }
 
-/* Layout */
-
-
-/* @media (max-width: 1000px) {
-	.mobile-nav-btn {
-		display: block;
-	}
-} */
-
 .bg-right-menu{
     background: #141d22!important;
     width: 300px !important;
     height: 100dvh !important;
-}
-
-.gmnoprint {
-    display: none !important;
 }
 
 .bg-t-pos{
