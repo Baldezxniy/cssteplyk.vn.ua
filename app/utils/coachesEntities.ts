@@ -1,6 +1,6 @@
 
 // import LyudmilaKropivyanska from '../../public/img/coaches/Lyudmila-Kropivyanska.jpg'
-import LyudmilaKropivyanska from '../../public/t_5.jpg'
+import LyudmilaKropivyanska from '../../public/img/coaches/Lyudmila-Kropivyanska-full.jpg'
 import PetroGarnik from '../../public/img/coaches/Petro-Garnik.jpg'
 import SergeyVorozhbit from '../../public/img/coaches/Sergey-Vorozhbit.jpg'
 import SvetlanaGranik from '../../public/img/coaches/Svetlana-Granik.jpg'

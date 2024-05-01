@@ -2,7 +2,7 @@ import 'react-modern-drawer/dist/index.css'
 import React from "react";
 import Image from "next/image";
 
-import t3Image from '../../public/t3.jpg'
+import mainImg from '../../public/img/coaches/main.jpg'
 import Link from "next/link";
 
 import {coachesInPage} from "@/app/utils/coachesEntities";
@@ -73,7 +73,7 @@ const Page = () => {
                         </div>
                       </div>
                       <div className='lg:w-[55%]'>
-                        <Image src={t3Image} className='border-2 border-black/20 w-full rounded-[20px] shadow-2xl shadow-slate-200 min-h-full lg:h-[400px] object-cover' alt="Main Image"/>
+                        <Image src={mainImg} className='border-2 border-black/20 w-full rounded-[20px] shadow-2xl shadow-slate-200 min-h-full lg:h-[400px] object-cover' alt="Main Image"/>
                         <div className="text-[16px] sm:text-[20px] leading-[130%] lg:hidden mt-[30px]">
                           Тренери нашої команди - це віддані фахівці, які не лише володіють глибоким розумінням та
                           досвідом у своїх галузях, але й активно створюють стимулююче середовище для розвитку та

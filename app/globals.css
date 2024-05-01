@@ -61,7 +61,7 @@
 }
 
 .ball-image {
-    background-image: url('../public/voll2.png');
+    background-image: url('../public/voll.png');
     background-size: contain;
     @apply bg-no-repeat;
 }
@@ -89,7 +89,7 @@
 }
 
 .mail-images-first-first-img-1 {
-    background-image: url("../public/55352100_2.jpg");
+    background-image: url("../public/img/main/20240429_145533.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -144,15 +144,15 @@
 }
 
 .mail-images-first-first-img-3 {
-    background-image: url('../public/55352105_2.jpg');
+    background-image: url('../public/img/main/greko-static-block.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
     background-attachment: scroll;
 }
 
 .mail-images-first-first-img-4 {
-    background-image: url('../public/81e2c95251d7.png');
+    background-image: url('../public/img/main/20240429_145850.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

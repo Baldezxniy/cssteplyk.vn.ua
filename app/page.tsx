@@ -1,18 +1,18 @@
 
 import Image from "next/image";
 
-import ATHLETICS from '../public/sports/attlet.jpg'
-import WORK from '../public/55315018.jpg'
+import LEGKA_STATIC_BLOCK from '../public/img/main/20240429_150526.jpg'
 import img1 from '../public/1_2.png'
 import img2 from '../public/2.png'
 
 import CoachList from "@/app/component/CoachList";
 import {Metadata} from "next";
 
-import voll from "../public/sports/voll.png"
-import greko from "../public/sports/greko.png"
-import strellba from "../public/sports/strellba.png"
-import football from "../public/sports/football.png"
+import ATHLETICS from '../public/sports/attlet.jpg'
+import VOLLEYBALL from "../public/sports/voll.png"
+import GREKO from "../public/sports/greko.png"
+import SHOTS from "../public/sports/strellba.png"
+import FOOTBALL from "../public/sports/football.png"
 
 export const metadata: Metadata = {
   title: 'Теплицька спортивна школа',
@@ -179,7 +179,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={voll} alt={'lasdf'} className='w-full h-full object-fit-cover-voll'/>
+                        <Image src={VOLLEYBALL} alt={'lasdf'} className='w-full h-full object-fit-cover-voll'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -212,7 +212,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={greko} alt={'qrwe'} className='w-full h-full object-cover'/>
+                        <Image src={GREKO} alt={'qrwe'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -280,7 +280,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={strellba} alt={'werq'} className='w-full h-full object-fit-cover-strellba'/>
+                        <Image src={SHOTS} alt={'werq'} className='w-full h-full object-fit-cover-strellba'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -312,7 +312,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={football} alt={'qwreqwe'} className='w-full h-full object-fit-cover-football'/>
+                        <Image src={FOOTBALL} alt={'qwreqwe'} className='w-full h-full object-fit-cover-football'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -346,19 +346,19 @@ export default function Home() {
               <div className='w-full block mail-images-first-first-img-1 rounded-[30px] flex-grow mb-[20px]'>
               </div>
               <div className='flex flex-col items-center mr-auto ml-0 justify-start'>
-                <div className=' relative h-[200px] mb-[12px] rounded-[20px] overflow-hidden'>
-                  <Image src={WORK} alt={'rqwe'} className='object-fit-cover w-full h-full'/>
+                <div className='relative h-[200px] mb-[12px] rounded-[20px] overflow-hidden'>
+                  <Image src={LEGKA_STATIC_BLOCK} alt={'rqwe'} className='object-fit-cover w-full h-full'/>
                   <div
-                    className='flex absolute left-0 right-0 top-0 bottom-0 bg-[#2B282F]/40 flex-col items-center justify-center '>
+                    className='flex absolute left-0 right-0 top-0 bottom-0 bg-[#2B282F]/1000 flex-col items-center justify-center '>
                     <div className='font-bold inline-flex text-[80px] text-white'>
-                      <span className="flex-grow w-full">32</span>
+                      {/*<span className="flex-grow w-full">34</span>*/}
                     </div>
                   </div>
                 </div>
-                <div
-                  className='text-[18px] -mt-[40px] flex text-[#262626] px-[20px] py-[10px] rounded-[20px] bg-white mail-images-first-first-img-2 z-40 justify-center'>
-                  <span className="flex-grow w-full">років роботи</span>
-                </div>
+                {/*<div*/}
+                {/*  className='text-[18px] -mt-[40px] flex text-[#262626] px-[20px] py-[10px] rounded-[20px] bg-white mail-images-first-first-img-2 z-40 justify-center'>*/}
+                {/*  <span className="flex-grow w-full">років роботи</span>*/}
+                {/*</div>*/}
               </div>
             </div>
             <div className='w-full md:w-[60%] lg:w-[50%] lg:px-[50px] md:pr-[50px]  flex flex-col'>

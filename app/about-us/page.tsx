@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import 'react-modern-drawer/dist/index.css'
 import Image from "next/image";
-import mainImg from "@/public/main.jpg";
+import mainImg from "@/public/img/about-us/main.jpg";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
@@ -98,14 +98,14 @@ const Page = () => {
                         className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-start advantage-elem">
                         <div className="flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-center">
                           <div
-                            className="w-full flex flex-col justify-start items-center sm:items-start text-center sm:text-left">
+                            className="w-full flex flex-col justify-start items-center text-center sm:text-left">
                             <div className="text-[18px] m-0 font-semibold flex text-[#749BFF]"><span
-                              className="flex-grow max-w-full">32 роки роботи</span></div>
+                              className="flex-grow max-w-full">34 роки роботи</span></div>
                           </div>
                           <div
                             className="block text-[15px] font-sans font-semibold  leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center">
-                            <p className="flex-grow max-w-full">
-                              Вже 32 роки ми працюємо над розвитком та формуванням спортивних навичок у молодого
+                            <p className="flex-grow max-w-full text-center">
+                              Вже 34 роки ми працюємо над розвитком та формуванням спортивних навичок у молодого
                               покоління.
                             </p>
                           </div>
@@ -117,60 +117,16 @@ const Page = () => {
                       <div
                         className="justify-start border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-start advantage-elem">
                         <div className='flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-start'>
-                          <div className='w-full flex flex-col items-center sm:items-start text-left'>
+                          <div className='w-full flex flex-col items-center text-left'>
                             <div className='text-[18px] m-0 font-semibold flex text-[#82DC3B]'>
                               <span className="flex-grow max-w-full">297+ учнів</span>
                             </div>
                           </div>
                           <div
                             className='block font-sans font-semibold text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
-                            <p className="flex-grow max-w-full">
-                              У нас навчається вражаюча кількість – 297 учнів, які з ентузіазмом розвивають свої
-                              спортивні таланти під пильним керівництвом нашої відданої команди.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className='flex flex-shrink-0 max-w-full w-[100%] md:w-[50%] lg:w-[33.333333333333336%] h-auto'>
-
-                      <div
-                        className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full
-                        m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-tart advantage-elem">
-                        <div className='flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-start'>
-                          <div className='w-full flex flex-col items-center sm:items-start text-center sm:text-left'>
-                            <div className='text-[18px] m-0 font-semibold flex text-[#EE8B53]'>
-                              <span className="flex-grow max-w-full">23 Працівника</span>
-                            </div>
-                          </div>
-                          <div
-                            className='block font-sans font-semibold  text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
-                            <p className="flex-grow max-w-full">
-                              Спортивна школа налічує 23 працівників, які присвячені розвитку та вихованню учнів,
-                              сприяючи їхньому спортивному зростанню.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/*  */}
-                    <div
-                      className="flex  flex-shrink-0 max-w-full w-[100%]  md:w-[50%] lg:w-[33.333333333333336%] h-auto">
-                      <div
-                        className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-start advantage-elem">
-                        <div className="flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-center">
-                          <div
-                            className="w-full flex flex-col justify-start items-center sm:items-start text-center sm:text-left">
-                            <div className="text-[18px] m-0 font-semibold flex text-[#749BFF]"><span
-                              className="flex-grow max-w-full">32 роки роботи</span></div>
-                          </div>
-                          <div
-                            className="block text-[15px] font-sans font-semibold  leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center">
-                            <p className="flex-grow max-w-full">
-                              Вже 32 роки ми працюємо над розвитком та формуванням спортивних навичок у молодого
-                              покоління.
+                            <p className="flex-grow max-w-full text-center">
+                              У нас навчається – 297 учнів, які з ентузіазмом розвивають свої
+                              спортивні таланти під пильним керівництвом наших тренерів.
                             </p>
                           </div>
                         </div>
@@ -181,59 +137,17 @@ const Page = () => {
                       <div
                         className="justify-start border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-start advantage-elem">
                         <div className='flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-start'>
-                          <div className='w-full flex flex-col items-center sm:items-start text-left'>
-                            <div className='text-[18px] m-0 font-semibold flex text-[#82DC3B]'>
-                              <span className="flex-grow max-w-full">297+ учнів</span>
+                          <div className='w-full flex flex-col items-center text-left'>
+                            <div className='text-[18px] m-0 font-semibold flex text-[#EE8B53]'>
+                              <span className="flex-grow max-w-full">5 видів спорту</span>
                             </div>
                           </div>
                           <div
                             className='block font-sans font-semibold text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
-                            <p className="flex-grow max-w-full">
-                              У нас навчається вражаюча кількість – 297 учнів, які з ентузіазмом розвивають свої
-                              спортивні таланти під пильним керівництвом нашої відданої команди.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className='flex flex-shrink-0 max-w-full w-[100%] md:w-[50%] lg:w-[33.333333333333336%] h-auto'>
-
-                      <div
-                        className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full
-                        m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-tart advantage-elem">
-                        <div className='flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-start'>
-                          <div className='w-full flex flex-col items-center sm:items-start text-center sm:text-left'>
-                            <div className='text-[18px] m-0 font-semibold flex text-[#EE8B53]'>
-                              <span className="flex-grow max-w-full">23 Працівника</span>
-                            </div>
-                          </div>
-                          <div
-                            className='block font-sans font-semibold  text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
-                            <p className="flex-grow max-w-full">
-                              Спортивна школа налічує 23 працівників, які присвячені розвитку та вихованню учнів,
-                              сприяючи їхньому спортивному зростанню.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      className="flex  flex-shrink-0 max-w-full w-[100%]  md:w-[50%] lg:w-[33.333333333333336%] h-auto">
-                      <div
-                        className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-start advantage-elem">
-                        <div className="flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-center">
-                          <div
-                            className="w-full flex flex-col justify-start items-center sm:items-start text-center sm:text-left">
-                            <div className="text-[18px] m-0 font-semibold flex text-[#749BFF]"><span
-                              className="flex-grow max-w-full">32 роки роботи</span></div>
-                          </div>
-                          <div
-                            className="block text-[15px] font-sans font-semibold  leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center">
-                            <p className="flex-grow max-w-full">
-                              Вже 32 роки ми працюємо над розвитком та формуванням спортивних навичок у молодого
-                              покоління.
+                            <p className="flex-grow max-w-full text-center">
+                              {/* eslint-disable-next-line react/no-unescaped-entities */}
+                              В нашій спортивній школі є п'ять різновидів спорту, де наші молоді спортсмени
+                              з інтересом розвивають свої здібності під керівництвом відмінних тренерів.
                             </p>
                           </div>
                         </div>
@@ -244,16 +158,19 @@ const Page = () => {
                       <div
                         className="justify-start border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-start advantage-elem">
                         <div className='flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-start'>
-                          <div className='w-full flex flex-col items-center sm:items-start text-left'>
-                            <div className='text-[18px] m-0 font-semibold flex text-[#82DC3B]'>
-                              <span className="flex-grow max-w-full">297+ учнів</span>
+                          <div className='w-full flex flex-col items-center text-left'>
+                            <div className='text-[18px] m-0 font-semibold flex text-[#749BFF]'>
+                              <span className="flex-grow max-w-full">Наш коллектив</span>
                             </div>
                           </div>
                           <div
                             className='block font-sans font-semibold text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
-                            <p className="flex-grow max-w-full">
-                              У нас навчається вражаюча кількість – 297 учнів, які з ентузіазмом розвивають свої
-                              спортивні таланти під пильним керівництвом нашої відданої команди.
+                            <p className="flex-grow max-w-full text-center">
+                              {/* eslint-disable-next-line react/no-unescaped-entities */}
+                              У нашому колективі спортивної школи об'єднані 15 спеціалістів своєї справи, які допомагають
+                              створювати атмосферу підтримки та дружби.
+
+
                             </p>
                           </div>
                         </div>
@@ -265,18 +182,93 @@ const Page = () => {
                       <div
                         className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full
                         m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-tart advantage-elem">
-                        <div className='flex w-auto flex-shrink flex-grow-0 flex-col items-start justify-start'>
-                          <div className='w-full flex flex-col items-center sm:items-start text-center sm:text-left'>
-                            <div className='text-[18px] m-0 font-semibold flex text-[#EE8B53]'>
-                              <span className="flex-grow max-w-full">23 Працівника</span>
+                        <div className='flex w-full h-full flex-shrink flex-grow-0 flex-col items-start justify-start'>
+                          <div className='w-full flex flex-col items-center text-center sm:text-left'>
+                            <div className='text-[18px] m-0 font-semibold flex text-[#82DC3B]'>
+                              <span className="flex-grow max-w-full">Статут КЗ Теплицька ДЮСШ</span>
                             </div>
                           </div>
                           <div
-                            className='block font-sans font-semibold  text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
-                            <p className="flex-grow max-w-full">
-                              Спортивна школа налічує 23 працівників, які присвячені розвитку та вихованню учнів,
-                              сприяючи їхньому спортивному зростанню.
-                            </p>
+                            className='flex flex-col flex-grow items-center justify-center h-full w-full font-sans font-semibold  text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
+                            <a target='_blank' href="/img/about-us/statut.pdf"
+                               className='flex cursor-pointer py-[12px] px-[80px] bg-[#82DC3B]/80 rounded-xl transition-all duration-300 hover:bg-green-300 ease-in text-white'>
+                              <div className='font-sans'>
+                                <span className="flex-grow max-w-full">Дивитись</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div
+                      className='flex flex-shrink-0 max-w-full w-[100%] md:w-[50%] lg:w-[33.333333333333336%] h-auto'>
+                      <div
+                        className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full
+                        m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-tart advantage-elem">
+                        <div className='flex w-full h-full flex-shrink flex-grow-0 flex-col items-start justify-start'>
+                          <div className='w-full flex flex-col items-center text-center sm:text-left'>
+                            <div className='text-[18px] m-0 font-semibold flex text-[#EE8B53]'>
+                              <span className="flex-grow max-w-full">Положення</span>
+                            </div>
+                          </div>
+                          <div
+                            className='flex flex-col flex-grow items-center justify-center h-full w-full font-sans font-semibold  text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
+                            <a target='_blank' href="/img/about-us/regulations.pdf"
+                               className='flex cursor-pointer py-[12px] px-[80px] bg-[#EE8B53] rounded-xl transition-all duration-300 hover:bg-red-300 ease-in text-white'>
+                              <div className='font-sans'>
+                                <span className="flex-grow max-w-full">Дивитись</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className='flex flex-shrink-0 max-w-full w-[100%] md:w-[50%] lg:w-[33.333333333333336%] h-auto'>
+                      <div
+                        className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full
+                        m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-tart advantage-elem">
+                        <div className='flex w-full h-full flex-shrink flex-grow-0 flex-col items-start justify-start'>
+                          <div className='w-full flex flex-col items-center text-center sm:text-left'>
+                            <div className='text-[18px] m-0 font-semibold flex text-[#749BFF]'>
+                              <span className="flex-grow max-w-full">Наказ</span>
+                            </div>
+                          </div>
+                          <div
+                            className='flex flex-col flex-grow items-center justify-center h-full w-full font-sans font-semibold  text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
+                            <a target='_blank' href="/img/about-us/order.pdf"
+                               className='flex cursor-pointer py-[12px] px-[80px] bg-[#749BFF] rounded-xl 400 [#E63338] transition-all duration-300 hover:bg-blue-300 ease-in text-white'>
+                              <div className='font-sans'>
+                                <span className="flex-grow max-w-full">Дивитись</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className='flex flex-shrink-0 max-w-full w-[100%] md:w-[50%] lg:w-[33.333333333333336%] h-auto'>
+                      <div
+                        className="border-2 flex-shrink flex-grow min-w-[auto] max-w-full
+                        m-[5px] p-5 rounded-[10px] flex flex-col sm:flex-row items-tart advantage-elem">
+                        <div className='flex w-full h-full flex-shrink flex-grow-0 flex-col items-start justify-start'>
+                          <div className='w-full flex flex-col items-center text-center sm:text-left'>
+                            <div className='text-[18px] m-0 font-semibold flex text-[#82DC3B]'>
+                              <span className="flex-grow max-w-full">Розклад Тренувань</span>
+                            </div>
+                          </div>
+                          <div
+                            className='flex flex-col flex-grow items-center justify-center h-full w-full font-sans font-semibold  text-[15px] leading-[120%] sm:text-left mt-[10px] text-black/[0.64] text-center'>
+                            <a target='_blank' href="/img/about-us/schedule.pdf"
+                               className='flex cursor-pointer py-[12px] px-[80px] bg-[#82DC3B]/80 rounded-xl transition-all duration-300 hover:bg-green-300 ease-in text-white'>
+                              <div className='font-sans'>
+                                <span className="flex-grow max-w-full">Дивитись</span>
+                              </div>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -289,7 +281,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-      </main>
+    </main>
   )
 }
 export default Page
