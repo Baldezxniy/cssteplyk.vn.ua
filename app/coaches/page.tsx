@@ -73,7 +73,7 @@ const Page = () => {
                         </div>
                       </div>
                       <div className='lg:w-[55%]'>
-                        <Image src={mainImg} className='border-2 border-black/20 w-full rounded-[20px] shadow-2xl shadow-slate-200 min-h-full lg:h-[400px] object-cover' alt="Main Image"/>
+                        <Image src={mainImg} className='border-2 border-black/20 w-full rounded-[20px] shadow-2xl shadow-slate-200 min-h-full lg:h-[400px] object-cover' alt="Головна"/>
                         <div className="text-[16px] sm:text-[20px] leading-[130%] lg:hidden mt-[30px]">
                           Тренери нашої команди - це віддані фахівці, які не лише володіють глибоким розумінням та
                           досвідом у своїх галузях, але й активно створюють стимулююче середовище для розвитку та
@@ -117,7 +117,7 @@ const CoachesPhotos = () => {
               className='shadow-slate-500 shadow-lg border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[20px] bg-white p-[20px]'>
               <div
                 className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px] '>
-                <Image src={coach.img} alt={'qrew'} className={'w-full h-full ' + coach.classPhoto}/>
+                <Image src={coach.img} alt={"Тренер: " + coach.name} className={'w-full h-full ' + coach.classPhoto}/>
               </div>
               <div className='mt-[15px] w-full flex flex-col mb-[10px]'>
                 <div className='text-[20px] md:text-[22px] flex font-bold flex-shrink'>

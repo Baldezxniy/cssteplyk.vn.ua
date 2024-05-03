@@ -91,7 +91,7 @@ export default function Home() {
                             <div className='w-[65px] h-[65px] overflow-hidden inline-block'>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <Image src={img1}
-                                   alt={'qwre'} className='w-full h-full object-contain'/>
+                                     alt='значок Гирі' className='w-full h-full object-contain'/>
                             </div>
                           </div>
                           <div className='flex flex-col items-center'>
@@ -117,7 +117,7 @@ export default function Home() {
                             <div className='w-[65px] h-[65px] overflow-hidden inline-block'>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <Image src={img2}
-                                   alt={'qwr'} className='w-full h-full object-contain'/>
+                                   alt={'Значок кубка'} className='w-full h-full object-contain'/>
                             </div>
                           </div>
                           <div className='flex flex-col items-center'>
@@ -179,7 +179,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={VOLLEYBALL} alt={'lasdf'} className='w-full h-full object-fit-cover-voll'/>
+                        <Image src={VOLLEYBALL} alt={'Волейбол'} className='w-full h-full object-fit-cover-voll'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -212,7 +212,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={GREKO} alt={'qrwe'} className='w-full h-full object-cover'/>
+                        <Image src={GREKO} alt={'Греко римська боротьба'} className='w-full h-full object-cover'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -245,7 +245,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={ATHLETICS} alt={'qrew'} className='w-full h-full object-fit-cover-greko'/>
+                        <Image src={ATHLETICS} alt={'ЛЕГКА АТЛЕТИКА'} className='w-full h-full object-fit-cover-greko'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -255,7 +255,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='text-16px md:text-[20px] flex font-bold flex-shrink uppercase'>
-                          <span className="flex-grow max-w-full">ЛЕГКАЯ АТЛЕТИКА</span>
+                          <span className="flex-grow max-w-full">ЛЕГКА АТЛЕТИКА</span>
                         </div>
                       </div>
                       <div className='flex text-[14px] text-[#878787] flex-grow'>
@@ -280,7 +280,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={SHOTS} alt={'werq'} className='w-full h-full object-fit-cover-strellba'/>
+                        <Image src={SHOTS} alt={'Стрільба кульова'} className='w-full h-full object-fit-cover-strellba'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
@@ -312,7 +312,7 @@ export default function Home() {
                       </div>
                       <div
                         className='overflow-hidden w-full h-[200px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-[20px]'>
-                        <Image src={FOOTBALL} alt={'qwreqwe'} className='w-full h-full object-fit-cover-football'/>
+                        <Image src={FOOTBALL} alt={'Футбол'} className='w-full h-full object-fit-cover-football'/>
                       </div>
                       <div className='w-full flex flex-col mb-[15px]'>
                         <div
