@@ -5,7 +5,7 @@ import PetroGarnik from '../../public/img/coaches/Petro-Garnik.jpg'
 import SergeyVorozhbit from '../../public/img/coaches/Sergey-Vorozhbit.jpg'
 import SvetlanaGranik from '../../public/img/coaches/Svetlana-Granik.jpg'
 import VadimDrachuk from '../../public/img/coaches/Vadim-Drachuk.jpg'
-import ValeryPisarenko from '../../public/img/coaches/Valery-Pisarenko.jpg'
+import DimaRizhiy from '../../public/img/coaches/Dima-Rizhiy.jpg'
 import VictorSemenovich from '../../public/img/coaches/Victor-Semenovich.jpg'
 import VolodymyrYakovich from '../../public/img/coaches/Volodymyr-Yakovich.jpg'
 
@@ -40,10 +40,10 @@ export const coaches: Coaches[] = [
     classPhoto: "object-fit-cover"
   },
   {
-    name: "Валерій Писаренко",
-    img: ValeryPisarenko,
+    name: "Дмитро Рижий",
+    img: DimaRizhiy,
     description: "Тренер-викладач з греко-римської боротьби",
-    classPhoto: "object-fit-cover"
+    classPhoto: "object-fit-cover-t3"
   },
   {
     name: "Світлана Гарник",
@@ -95,10 +95,10 @@ export const coachesInPage = [
     classPhoto: "object-fit-cover"
   },
   {
-    name: "Валерій Писаренко",
-    img: ValeryPisarenko,
-    firstParagraph: "Валерій Писаренко - визнаний фахівець і тренер з греко-римської боротьби. З великим ентузіазмом та професійним підходом Валерій Іванович веде наших спортсменів до високих досягнень у своїй дисципліні.",
-    secondParagraph: "Його тренування орієнтовані на розвиток технічних навичок і формування міцного фізичного та морального стану кожного спортсмена. Валерій Писаренко, як відомий фахівець своєї справи, вміло поєднує досвід та натхнення, створюючи атмосферу, де кожен борець може розкрити свій потенціал та досягти великих висот у греко-римській боротьбі.",
+    name: "Дмитро Рижий",
+    img: DimaRizhiy,
+    firstParagraph: "Дмитро Рижий - тренер з греко-римської боротьби. З великим ентузіазмом та професійним підходом  веде наших спортсменів до високих досягнень у своїй дисципліні.",
+    secondParagraph: "Його тренування орієнтовані на розвиток технічних навичок і формування міцного фізичного та морального стану кожного спортсмена. Дмитро, як фахівець своєї справи, вміло поєднує досвід та натхнення, створюючи атмосферу, де кожен борець може розкрити свій потенціал та досягти великих висот у греко-римській боротьбі.",
     classPhoto: "object-fit-cover"
   },
   {
