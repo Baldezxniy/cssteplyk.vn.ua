@@ -163,7 +163,7 @@ const Home = async () => {
       <div className='block relative flex-grow w-full'>
         <div className='px-[5%] pt-[25px] lg:pt-[50px] z-10 text-services'>
           <div className='w-auto max-w-[1300px] mx-auto flex flex-col z-10'>
-            <div className='flex justify-between items-center'>
+            {/*<div className='flex justify-between items-center'>*/}
               <div className='relative flex flex-col justify-start items-center sm:items-start gap-3'>
                 <div
                   className='hidden sm:flex text-[16px] text-white mb-[5px] uppercase px-[10px] py-[5px] bg-[#2B282F] rounded-[10px] '>
@@ -176,7 +176,7 @@ const Home = async () => {
                     Нещодавні новини
                   </span>
                 </div>
-              </div>
+              {/*</div>*/}
               {/* TODO: може потом добавити ссылку на страницу новостей */}
               {/*<div>*/}
               {/*  Новини*/}
