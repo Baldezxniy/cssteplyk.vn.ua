@@ -20,7 +20,7 @@ export function SelectDemo() {//{fetchDataWithFilter}: any
     setIsFeed(true)
   }
   const onValueChange = (value: string) => {
-    if (value == "Все") {
+    if (value == "всі") {
       router.push(`/news`);
     } else {
       router.push(`/news?filter=${value}`);
@@ -37,16 +37,16 @@ export function SelectDemo() {//{fetchDataWithFilter}: any
         onOpenChange={onOpenChange}
         onValueChange={onValueChange}>
         <SelectTrigger className="w-[180px]">
-          <SelectValue placeholder="Фильтр Напрямку"/>
+          <SelectValue placeholder="Фільтр напрямку"/>
         </SelectTrigger>
         <SelectContent>
           <SelectGroup>
-            <SelectItem value="Все">Все</SelectItem>
-            <SelectItem value="Волейбол">Волейбол</SelectItem>
-            <SelectItem value="Футбол">Футбол</SelectItem>
-            <SelectItem value="Борьба">Борьба</SelectItem>
-            <SelectItem value="Стрельба">Стрельба</SelectItem>
-            <SelectItem value="Походы">Походы</SelectItem>
+            <SelectItem value="всі">Всі</SelectItem>
+            <SelectItem value="волейбол">Волейбол</SelectItem>
+            <SelectItem value="боротьба">Боротьба</SelectItem>
+            <SelectItem value="атлетика">Атлетика</SelectItem>
+            <SelectItem value="стрільба">Стрільба</SelectItem>
+            <SelectItem value="футбол">Футбол</SelectItem>
           </SelectGroup>
         </SelectContent>
       </Select>

@@ -10,7 +10,7 @@ import {formatDate} from "@/app/utils/formatDate";
 
 const fetchData = async (slug: string) => {
   const result = await client.getEntries({
-    content_type: "news-page",
+    content_type: "news",
     limit: 1,
     "fields.slug": slug
   });
@@ -29,7 +29,7 @@ const options = {
 
     [INLINES.HYPERLINK]: ({data}: any, children: any) =>
       <a className='text-blue-800 font-semibold'
-         href={data.uri}
+         href={data.uri.startsWith("https://") || data.uri.startsWith("http://") ? data.uri : ("https://" + data.uri)}
         // target={`${data.uri.startsWith("cssteplyk.vn.ua") ? '_self' : '_blank'}`}
          target='_blank'
       >{children}</a>,
@@ -97,7 +97,7 @@ const Page = async ({params}: {
                   <div className='w-full md:w-[70%]'>
                     <div>
                       <Image width={0} height={0} sizes={'100%'}
-                             src={"https:" + news?.fields.photoss[0].fields.file.url} alt={"Тренер: "}
+                             src={"https:" + news?.fields.photos[0].fields.file.url} alt={"Тренер: "}
                              className={'w-full h-full '}/></div>
                     <div className='flex flex-col gap-2 py-[30px] px-[12px] lg:p-[40px] text-[16px]'>
                       {documentToReactComponents(news?.fields.description, options)}

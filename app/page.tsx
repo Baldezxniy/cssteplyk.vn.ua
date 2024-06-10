@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 
 const fetchData = async () => {
   const data = await client.getEntries({
-    content_type: "news-page",
+    content_type: "news",
     limit: 3
   })
   return data.items;
@@ -198,7 +198,7 @@ const Home = async () => {
                           <div
                             className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-t-[10px] rounded-b-[5px] '>
                             <Image width={0} height={0} sizes={'100%'}
-                                   src={"https:" + newsItem.fields.photoss[0].fields.file.url} alt={"Тренер: "}
+                                   src={"https:" + newsItem.fields.photos[0].fields.file.url} alt={"Тренер: "}
                                    className={'w-full h-full '}/>
                           </div>
                           <div className='py-[16px] px-[10px] flex flex-col gap-4 flex-grow'>

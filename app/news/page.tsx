@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
 const fetchData = async () => {
   const data = await client.getEntries({
-    content_type: "news-page",
+    content_type: "news",
     limit: 50
   })
   return data.items;
@@ -36,7 +36,7 @@ const fetchData = async () => {
 
 const fetchDataWithFilter = async (filterParam: string) => {
   const data = await client.getEntries({
-    content_type: "news-page",
+    content_type: "news",
     limit: 50,
     "fields.sportType": filterParam
   })
@@ -82,16 +82,16 @@ const Page = async ({searchParams}: { searchParams: { filter: string } }) => {
                 <div className='py-[40px] flex flex-wrap'>
                   {
                     news?.length > 0 &&
-                    news?.map((newsItem: any) => (
+                    news?.map((newsItem: any, index: number) => (
                       <Link className='flex max-w-full w-full md:w-[50%] lg:w-[33%] h-auto'
-                            href={"/news/" + newsItem.fields.slug} key={newsItem.fields.title}>
+                            href={"/news/" + newsItem.fields.slug} key={newsItem.fields.slug}>
 
                         <div
                           className='shadow-slate-500 border-2 flex-shrink flex-grow min-w-[auto] max-w-full m-[5px] my-[10px] sm:m-[10px] flex flex-col items-start justify-start rounded-[10px] bg-white p-[2px]'>
                           <div
                             className='relative overflow-hidden w-full h-[270px] bg-no-repeat bg-auto bg-scroll bg-black/0 rounded-t-[10px] rounded-b-[5px] '>
                             <Image width={0} height={0} sizes={'100%'}
-                                   src={"https:" + newsItem.fields.photoss[0].fields.file.url} alt={"Тренер: "}
+                                   src={"https:" + newsItem.fields.photos[0].fields.file.url} alt={"Тренер: "}
                                    className={'w-full h-full '}/>
                           </div>
                           <div className='py-[16px] px-[10px] flex flex-col gap-4 flex-grow'>
